@@ -1,0 +1,159 @@
+const express = require("express");
+const router = express.Router();
+const routeRoot = "/posts";
+const validator = require('validator');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+const logger = require('../logger')
+const model = require("../models/PostModel")
+const sessionController = require('./sessionController');
+const { checkCredentials, isRequesterAdmin } = require('./userController');
+const { DatabaseError } = require('../models/DatabaseError')
+const { InvalidInputError } = require('../models/InvalidInputError');
+require("mongodb");
+
+
+
+router.post('/', handleCreatePost);
+/**
+ * Creates a new post using parameters from a POST request.
+ * @param {Object} request The incoming http request with body containing the post title, description, topic name, and author name
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @throws InvalidInputError If the author name and/or author password are incorrect
+ */
+async function handleCreatePost(request, response) {
+    try {
+        const currentUser = await sessionController.getAuthenticatedUser(request);
+        const title = request.body.title, content = request.body.content, topicNames = request.body.topicNames;
+
+        if (currentUser) {
+            const createdPost = await model.createPost(title, content, topicNames, currentUser._id);
+
+            response.send(createdPost);
+        }
+        else
+            throw new InvalidInputError("Unauthorized access");
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.get('/:postId', handleGetSinglePost);
+
+/**
+ * Searches for and returns a single post using the specified post ID
+ * @param {Object} request The incoming http request with body containing the post ID
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetSinglePost(request, response) {
+    try {
+        const idToFind = request.params.postId;
+        const post = await model.getSinglePost(idToFind);
+
+        logger.info(post);
+        response.send(post);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.get('/', handleGetPosts)
+/**
+ * Gets a list of ALL posts in the ByteBoard database
+ * @param {Object} request The incoming http request. Should have nothing
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetPosts(request, response) {
+    try {
+        let postList = await model.getAllPosts();
+
+        response.send(postList);
+    }
+
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.put("/", handleUpdatePost);
+/**
+ * Updates a user's information if the user exists and sends the updated user object
+ * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleUpdatePost(request, response) {
+    try {
+        const postId = request.body.postId;
+        const post = await model.getSinglePost(postId);
+        const currentUser = await sessionController.getAuthenticatedUser(request);
+
+        // The person updating the post must be the author
+        if (toString(currentUser._id) == toString(post.authorId)) {
+            const updatedPost = await model.updatePost(postId, request.body, true);
+
+            response.send(updatedPost);
+        }
+        else
+            response.sendStatus(401);
+    }
+    catch(error) {
+        sendError(error, response);
+    }
+}
+
+router.put("/vote", handleVote);
+/**
+ * 
+ * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleVote(request, response) {
+    try {
+        const postId = request.body.postId;
+    }
+    catch(error) {
+        sendError(error, response);
+    }
+}
+
+// router.delete('/', handleDeleteUser);
+
+// /**
+//  * Delete's a user from the database and sends the deleted user object
+//  * @param {Object} request The incoming http request with the body containing the username to delete
+//  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+//  */
+// async function handleDeleteUser(request, response) {
+//     try {
+//         const nameToDelete = request.body.usernameToDelete;
+//         const deletedUser = await model.deleteUser(nameToDelete);
+
+//         response.send(deletedUser);
+//     }
+//     catch(error) {
+//         sendError(error, response);
+//     }
+// }
+
+
+
+// Logs an error, and sends a response of 400 if the error is an InvalidInputError, 500 otherwise
+function sendError(error, response) {
+    logger.error(error.message);
+
+    if (error instanceof InvalidInputError) {
+        response.status(400);
+        response.send({ errorMessage: "Invalid Input Error: " + error.message });
+    }
+    else {
+        response.status(500);
+        response.send({ errorMessage: "Internal Error: " + error.message });
+    }
+}
+
+module.exports = { router, routeRoot } //checkCredentials, seedUsers

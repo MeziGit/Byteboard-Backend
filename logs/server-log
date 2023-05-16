@@ -1,0 +1,383 @@
+{"level":30,"time":1683744594517,"pid":9535,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683744596091,"pid":9535,"hostname":"PE322-18","msg":9}
+{"level":50,"time":1683744596647,"pid":9535,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744596647,"pid":9535,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744663374,"pid":9535,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744663374,"pid":9535,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744667316,"pid":9535,"hostname":"PE322-18","msg":"Invalid registration - username csac"}
+{"level":30,"time":1683744679569,"pid":10051,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683744680177,"pid":10051,"hostname":"PE322-18","msg":9}
+{"level":30,"time":1683744680754,"pid":10051,"hostname":"PE322-18","msg":"Successfully registered username csac"}
+{"level":50,"time":1683744793330,"pid":10051,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744793332,"pid":10051,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744798381,"pid":10051,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":50,"time":1683744798382,"pid":10051,"hostname":"PE322-18","msg":"Invalid input"}
+{"level":30,"time":1683744930196,"pid":10806,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683744941353,"pid":10806,"hostname":"PE322-18","msg":11}
+{"level":30,"time":1683744942091,"pid":10806,"hostname":"PE322-18","msg":"Successfully registered username admisrtgdwaear"}
+{"level":30,"time":1683744963337,"pid":10928,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683744989908,"pid":10928,"hostname":"PE322-18","msg":12}
+{"level":50,"time":1683744990636,"pid":10928,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":50,"time":1683744990636,"pid":10928,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":30,"time":1683745007764,"pid":11388,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683745013027,"pid":11388,"hostname":"PE322-18","msg":12}
+{"level":50,"time":1683745013750,"pid":11388,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":50,"time":1683745013751,"pid":11388,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":30,"time":1683745032513,"pid":11558,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683745036330,"pid":11558,"hostname":"PE322-18","msg":12}
+{"level":50,"time":1683745037053,"pid":11558,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":50,"time":1683745037053,"pid":11558,"hostname":"PE322-18","msg":"Password must be at least 10 characters"}
+{"level":50,"time":1683745046393,"pid":11558,"hostname":"PE322-18","msg":"Invalid registration - username jeffanderson"}
+{"level":50,"time":1683745054293,"pid":11558,"hostname":"PE322-18","msg":"Invalid registration - username jeffanderson"}
+{"level":30,"time":1683745063871,"pid":11558,"hostname":"PE322-18","msg":"Successfully registered username jeffandfberson"}
+{"level":50,"time":1683745120448,"pid":11558,"hostname":"PE322-18","msg":"Invalid registration - username jeffanderson"}
+{"level":30,"time":1683745157850,"pid":11671,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1683745162985,"pid":11671,"hostname":"PE322-18","msg":"There are no existing ByteBoard users"}
+{"level":50,"time":1683745162985,"pid":11671,"hostname":"PE322-18","msg":"Unexpected error occurred while trying to get a list of all users: (DatabaseError) There are no existing ByteBoard users"}
+{"level":30,"time":1683745221731,"pid":11870,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1683745262317,"pid":11870,"hostname":"PE322-18","msg":"There are no existing ByteBoard users"}
+{"level":50,"time":1683745262317,"pid":11870,"hostname":"PE322-18","msg":"Unexpected error occurred while trying to get a list of all users: (DatabaseError) There are no existing ByteBoard users"}
+{"level":50,"time":1683745273817,"pid":11870,"hostname":"PE322-18","msg":"There are no existing ByteBoard users"}
+{"level":50,"time":1683745273817,"pid":11870,"hostname":"PE322-18","msg":"Unexpected error occurred while trying to get a list of all users: (DatabaseError) There are no existing ByteBoard users"}
+{"level":30,"time":1683745399904,"pid":11935,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683745402222,"pid":11935,"hostname":"PE322-18","msg":1}
+{"level":30,"time":1683745402392,"pid":11935,"hostname":"PE322-18","msg":"Successfully registered username admisrtgdwaear"}
+{"level":30,"time":1683745426932,"pid":11935,"hostname":"PE322-18","msg":"Successfully registered username jeffanderson"}
+{"level":30,"time":1683745458250,"pid":11935,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1683745469191,"pid":11935,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":50,"time":1683745478302,"pid":11935,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683745478303,"pid":11935,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: jeffandfberson"}
+{"level":30,"time":1683745482353,"pid":11935,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1683745490244,"pid":11935,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1683745537070,"pid":11935,"hostname":"PE322-18","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1683745541324,"pid":11935,"hostname":"PE322-18","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1683745553376,"pid":11935,"hostname":"PE322-18","msg":"Successfully registered username jeffandfbersodwn"}
+{"level":30,"time":1683745589085,"pid":11974,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683745595130,"pid":11974,"hostname":"PE322-18","msg":5}
+{"level":50,"time":1683745595407,"pid":11974,"hostname":"PE322-18","msg":"Invalid registration - already exists - username jeffandfbersodwnds"}
+{"level":30,"time":1683745597503,"pid":11974,"hostname":"PE322-18","msg":"Successfully registered username jeffandfbersodwnds"}
+{"level":30,"time":1683745620344,"pid":11974,"hostname":"PE322-18","msg":"Successfully registered username jeffandfberson"}
+{"level":30,"time":1683745704876,"pid":11974,"hostname":"PE322-18","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1683745719163,"pid":11974,"hostname":"PE322-18","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1683745722097,"pid":11974,"hostname":"PE322-18","msg":"Invalid registration - already exists - username jeffandfberson"}
+{"level":50,"time":1683745723902,"pid":11974,"hostname":"PE322-18","msg":"Invalid registration - already exists - username jeffandfberson"}
+{"level":30,"time":1683745899314,"pid":11974,"hostname":"PE322-18","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1683745919979,"pid":11974,"hostname":"PE322-18","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1683745924351,"pid":11974,"hostname":"PE322-18","msg":"Invalid registration - already exists - username jeffandfberson"}
+{"level":30,"time":1683746004893,"pid":12604,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683746015717,"pid":12604,"hostname":"PE322-18","msg":4}
+{"level":30,"time":1683746015994,"pid":12604,"hostname":"PE322-18","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1683746038106,"pid":12604,"hostname":"PE322-18","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1683746040812,"pid":12604,"hostname":"PE322-18","msg":"Successfully registered username jeffandfberson"}
+{"level":30,"time":1683746064744,"pid":12660,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683746308022,"pid":12786,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683746313822,"pid":12802,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683746477877,"pid":12802,"hostname":"PE322-18","_id":"645bea920c020f856ac3e9ba","username":"jeffanderson","email":"test@gmail.com","password":"jeffanderson12","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"developer":false}
+{"level":30,"time":1683746738021,"pid":12802,"hostname":"PE322-18","msg":5}
+{"level":30,"time":1683746738358,"pid":12802,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":30,"time":1683746746490,"pid":12802,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":50,"time":1683746752504,"pid":12802,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683746752504,"pid":12802,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: testUsr1"}
+{"level":30,"time":1683746756100,"pid":12802,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":30,"time":1683746766648,"pid":12802,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":30,"time":1683746806424,"pid":13033,"hostname":"PE322-18","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1683746811970,"pid":13033,"hostname":"PE322-18","msg":4}
+{"level":50,"time":1683746812205,"pid":13033,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683746812205,"pid":13033,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: testUser1"}
+{"level":50,"time":1683746820327,"pid":13033,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683746820327,"pid":13033,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: testUser1"}
+{"level":50,"time":1683746828034,"pid":13033,"hostname":"PE322-18","msg":"A user with the given username already exists"}
+{"level":50,"time":1683746828034,"pid":13033,"hostname":"PE322-18","msg":"A user with the given username already exists"}
+{"level":30,"time":1683746830487,"pid":13033,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":30,"time":1683746834489,"pid":13033,"hostname":"PE322-18","msg":4}
+{"level":50,"time":1683746838084,"pid":13033,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683746838084,"pid":13033,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: testUser1"}
+{"level":50,"time":1683746936609,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683746936609,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683746936610,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":30,"time":1683746947231,"pid":13033,"hostname":"PE322-18","msg":"Successfully registered username testUser1"}
+{"level":50,"time":1683746953604,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683746953604,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683746953604,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":30,"time":1683746995902,"pid":13033,"hostname":"PE322-18","msg":4}
+{"level":50,"time":1683747051680,"pid":13033,"hostname":"PE322-18","msg":"data and hash arguments required"}
+{"level":30,"time":1683747051680,"pid":13033,"hostname":"PE322-18","msg":"Unsuccessful login: Invalid username / password given for user: testUser1"}
+{"level":30,"time":1683747054839,"pid":13033,"hostname":"PE322-18","msg":"Successfully registered username testUser1"}
+{"level":30,"time":1683747057306,"pid":13033,"hostname":"PE322-18","msg":"Successful login for user testUser1"}
+{"level":30,"time":1683747059743,"pid":13033,"hostname":"PE322-18","msg":"Logged out user testUser1"}
+{"level":30,"time":1683747064902,"pid":13033,"hostname":"PE322-18","msg":4}
+{"level":50,"time":1683747622734,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683747622734,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":50,"time":1683747622734,"pid":13033,"hostname":"PE322-18","msg":"The requested user doesn't exist"}
+{"level":30,"time":1683835975521,"pid":22416,"hostname":"PE322-08","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684026875872,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684026879930,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":6}
+{"level":30,"time":1684026880327,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684026884900,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1684027842424,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684028175039,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: admincse"}
+{"level":30,"time":1684028191968,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684028201773,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684028201774,"pid":20072,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":30,"time":1684028263966,"pid":9700,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684028274338,"pid":9700,"hostname":"DESKTOP-AQA29PE","msg":6}
+{"level":30,"time":1684028274718,"pid":9700,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684028287661,"pid":21544,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684028406201,"pid":17852,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684028445955,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684028448275,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":6}
+{"level":30,"time":1684028448658,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684028529011,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028529011,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028643757,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028643757,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028645339,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028645339,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028645873,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028645873,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028667484,"pid":34968,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username testUser1"}
+{"level":30,"time":1684028802517,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684028811536,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":6}
+{"level":50,"time":1684028811864,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username testUser1"}
+{"level":30,"time":1684028817209,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username testUser1"}
+{"level":50,"time":1684028821630,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028821631,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028823317,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028823317,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028824216,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028824217,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028824919,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028824920,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028830992,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028830992,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832036,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832036,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832482,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832482,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832834,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028832834,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028833137,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":50,"time":1684028833137,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given email already exists"}
+{"level":30,"time":1684029054362,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684029301279,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684029377168,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684029491995,"pid":6560,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684029538115,"pid":11588,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684029570058,"pid":32676,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684029583893,"pid":32676,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":30,"time":1684029584335,"pid":32676,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684029627148,"pid":27348,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684029652945,"pid":27348,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":30,"time":1684029653377,"pid":27348,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684029672110,"pid":27348,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684029672110,"pid":27348,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":30,"time":1684029707460,"pid":18612,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684029709384,"pid":32380,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684029719823,"pid":32380,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":30,"time":1684029720261,"pid":32380,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684030028202,"pid":6228,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684030187116,"pid":6228,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":30,"time":1684030187547,"pid":6228,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684030262918,"pid":6228,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684030447415,"pid":37852,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684031560587,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684031629547,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":30,"time":1684031629973,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684031692746,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684031762629,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684031824849,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684032039857,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username test"}
+{"level":30,"time":1684032045034,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user test"}
+{"level":30,"time":1684032057184,"pid":27324,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684032266431,"pid":12716,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032311216,"pid":22492,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684032311263,"pid":22492,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684032311264,"pid":22492,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1684032311264,"pid":22492,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684032320864,"pid":9392,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032323903,"pid":9392,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684032324396,"pid":9392,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684032356477,"pid":29244,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032366208,"pid":29244,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684032366702,"pid":29244,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684032915248,"pid":3160,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032920063,"pid":30320,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032922477,"pid":30320,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":50,"time":1684032922909,"pid":30320,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684032922909,"pid":30320,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684032947378,"pid":28988,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684032947383,"pid":28988,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684032947384,"pid":28988,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1684032947384,"pid":28988,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684032961675,"pid":18948,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684032988317,"pid":28828,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684033014473,"pid":28828,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684033025432,"pid":36900,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684033032985,"pid":21052,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684033038612,"pid":21052,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'findOne')"}
+{"level":30,"time":1684033057251,"pid":15308,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684033064222,"pid":15308,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684033145397,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684033162763,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684033162763,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684033162763,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684033173962,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Password must have at least one numerical character"}
+{"level":50,"time":1684033173962,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Password must have at least one numerical character"}
+{"level":30,"time":1684033179869,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684033185925,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684033186417,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684033197251,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684033229393,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":50,"time":1684033631276,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Email is of an invalid format (Proper format: \"user@example.com\")"}
+{"level":50,"time":1684033631276,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Email is of an invalid format (Proper format: \"user@example.com\")"}
+{"level":30,"time":1684033702452,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684033707332,"pid":29632,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1684034067055,"pid":22320,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034070813,"pid":22320,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034094382,"pid":12528,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034100331,"pid":12528,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034142994,"pid":33120,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034148662,"pid":33120,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034163657,"pid":5344,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034168550,"pid":5344,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034186142,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034189346,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":50,"time":1684034781436,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684034781436,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684034781436,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684034806494,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684034806494,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":50,"time":1684034806494,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist"}
+{"level":30,"time":1684034891328,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684034899612,"pid":19288,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034930418,"pid":37104,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034936902,"pid":37104,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034937389,"pid":37104,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684034953944,"pid":37104,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684034963270,"pid":24220,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034982327,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684034984758,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684034985249,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684034992578,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035026787,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035035720,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035045938,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035052368,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035057830,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035071421,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035081263,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035091997,"pid":27600,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684035185985,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684035208901,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684035209395,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684035214296,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684035234076,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684035254582,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684035420862,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684035431805,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Could not update jeffanderson's information"}
+{"level":50,"time":1684035431805,"pid":28180,"hostname":"DESKTOP-AQA29PE","msg":"Could not update jeffanderson's information"}
+{"level":30,"time":1684036275420,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684036405909,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684036406402,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036409640,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1684036414042,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":50,"time":1684036511357,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username jeffanderson"}
+{"level":50,"time":1684036515564,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username jeffanderson"}
+{"level":30,"time":1684036518359,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036521975,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1684036524242,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684036634342,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036637550,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1684036640564,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684036680106,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036683038,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":50,"time":1684036684221,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
+{"level":30,"time":1684036687575,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036689423,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1684036693011,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":50,"time":1684036708509,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684036708509,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684036713861,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username jeffanderson"}
+{"level":30,"time":1684036716143,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036718667,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1684036721810,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":7}
+{"level":50,"time":1684036795599,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684036795599,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684036801102,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username jeffanderson"}
+{"level":30,"time":1684036803817,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036881126,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user jeffanderson"}
+{"level":30,"time":1684036885408,"pid":17012,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":30,"time":1684036947692,"pid":10780,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684036948339,"pid":10780,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":30,"time":1684036948834,"pid":10780,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684036955030,"pid":10780,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684037083938,"pid":10780,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson"}
+{"level":30,"time":1684037117181,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684037129266,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":8}
+{"level":50,"time":1684037129700,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username jeffanderson"}
+{"level":50,"time":1684037132837,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username jeffanderson"}
+{"level":50,"time":1684037134970,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username jeffanderson"}
+{"level":30,"time":1684037194145,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username jeffandersond"}
+{"level":30,"time":1684037201251,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffandersond"}
+{"level":30,"time":1684037552033,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffandersond"}
+{"level":30,"time":1684037692575,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username testUser"}
+{"level":30,"time":1684037698571,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser"}
+{"level":30,"time":1684037724184,"pid":34192,"hostname":"DESKTOP-AQA29PE","msg":10}
+{"level":30,"time":1684038032947,"pid":33576,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038044272,"pid":33576,"hostname":"DESKTOP-AQA29PE","msg":10}
+{"level":30,"time":1684038044897,"pid":33576,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser"}
+{"level":30,"time":1684038051399,"pid":33576,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser"}
+{"level":30,"time":1684038066459,"pid":33576,"hostname":"DESKTOP-AQA29PE","msg":10}
+{"level":30,"time":1684038196800,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038205601,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":10}
+{"level":50,"time":1684038206153,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Invalid registration - already exists - username testUser2"}
+{"level":30,"time":1684038208637,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username testUser2"}
+{"level":30,"time":1684038215528,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser2"}
+{"level":30,"time":1684038227134,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":11}
+{"level":30,"time":1684038233933,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user testUser2"}
+{"level":30,"time":1684038248657,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2"}
+{"level":30,"time":1684038253407,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2"}
+{"level":30,"time":1684038256658,"pid":17496,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2"}
+{"level":30,"time":1684038291047,"pid":34232,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038547597,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038554926,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":11}
+{"level":30,"time":1684038555664,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username testUser2d"}
+{"level":50,"time":1684038564444,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684038564444,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2"}
+{"level":50,"time":1684038566873,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684038566873,"pid":16504,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2d"}
+{"level":30,"time":1684038597352,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684038603292,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684038603292,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684038606351,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684038606351,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":30,"time":1684038609413,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username jeffanderson3"}
+{"level":50,"time":1684038616871,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684038616871,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: jeffanderson3"}
+{"level":50,"time":1684038660587,"pid":11924,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684038716639,"pid":35248,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684038722712,"pid":35248,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":30,"time":1684038740126,"pid":25284,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038781927,"pid":1316,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038797001,"pid":32152,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038807821,"pid":21080,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038829256,"pid":19964,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038847060,"pid":32488,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038873783,"pid":6132,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038885803,"pid":27500,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684038892486,"pid":20376,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684039016857,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684039038200,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684039038200,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684039043518,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":50,"time":1684039043518,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"A user with the given username already exists"}
+{"level":30,"time":1684039046807,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"Successfully registered username testUser2d3"}
+{"level":30,"time":1684039052373,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser2d3"}
+{"level":50,"time":1684039072423,"pid":6392,"hostname":"DESKTOP-AQA29PE","msg":"seedUsers is not defined"}
+{"level":30,"time":1684039081146,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":30,"time":1684039091247,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2d3"}
+{"level":30,"time":1684039093021,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2d3"}
+{"level":30,"time":1684039096976,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser2d3"}
+{"level":30,"time":1684039141088,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Logged out user testUser2d3"}
+{"level":30,"time":1684039150122,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Unsuccessful login: Invalid username / password given for user: testUser2d3"}
+{"level":30,"time":1684039154160,"pid":30344,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user testUser2d3"}

@@ -1,0 +1,12 @@
+Required modules:
+- bcrypt
+- cookie-parser
+- cors
+- dotenv
+- express-list-endpoints
+- express
+- jest
+- mongodb
+- pino
+- uuid
+- validator

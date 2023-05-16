@@ -1,0 +1,235 @@
+const express = require("express");
+const router = express.Router();
+const routeRoot = "/users";
+const validator = require('validator');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+const logger = require('../logger')
+const model = require("../models/UserModel")
+const { DatabaseError } = require('../models/DatabaseError')
+const { InvalidInputError } = require('../models/InvalidInputError')
+let usersSeededonce = false;
+require("mongodb");
+
+
+/**
+ * Returns true if there is a stored user with the same username and password
+ * @param {String} username The username that the request sent
+ * @param {String} password The password that the request sent (that SHOULD match the password of the user with the same username)
+ * @returns True if the credentials are correct, false otherwise
+ */
+async function areCredentialsCorrect(username, password) {
+    try {
+        const user = await model.getSingleUser(username)
+        const isSame = await bcrypt.compare(password, user.password);
+
+        return isSame
+    }
+    catch (err) {
+        console.error(err.message)
+        logger.error(err.message)
+        return false
+    }
+}
+
+/**
+ * Checks if a user is an administrator and returns the result
+ * @param {Object} request The incoming http request that should contain an admin username and admin password
+ * @returns {boolean} True if the user is an admin, false otherwise
+ */
+async function isRequesterAdmin(request) {
+    try {
+        const sessionController = require("./sessionController");
+        const currentUser = await sessionController.getAuthenticatedUser(request);
+        
+        if (currentUser)
+            return currentUser.admin;
+        
+        throw new Error("Couldn't verify the user");
+    }
+    catch(error) {
+        logger.error("Error while checking if a user is an admin: " + error);
+    }
+
+    return false;
+}
+
+
+router.post("/register", registerUser)
+/**
+ * 
+ * @param {Object} request The incoming http request that should contain a body with the username, email, and password 
+ * @param {Object} response The outgoing http response
+ */
+async function registerUser(request, response) {
+    try {
+        const username = request.body.username
+        const password = request.body.password
+        const email = request.body.email
+
+
+        if(username && password && email)
+        {
+            await model.createUser(username, email, password);
+
+            logger.info("Successfully registered username " + username);
+            response.send({ success: true });
+            return;
+        }
+        else
+            throw new InvalidInputError("The username, email, and/or password are not filled in correctly");
+    
+
+    } catch (err) {
+        logger.error(err.message);
+
+    }
+    response.status(401);
+    response.send({ success: false });
+}
+
+
+router.post('/', handleCreateUser);
+
+/**
+ * Creates a new user using parameters from a POST request. The requester MUST be an existing administrator
+ * @param {Object} request The incoming http request with body containing username, email, and password
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @throws InvalidInputError if the user entered invalid credentials
+ * @throws DatabaseError if something went wrong in MongoDB
+ */
+async function handleCreateUser(request, response) {
+    try {
+        if (await isRequesterAdmin(request)) {
+            const username = request.body.username, email = request.body.email, password = request.body.password;
+            const createdUser = await model.createUser(username, email, password);
+
+            response.send(createdUser);
+        }
+        else
+            throw new InvalidInputError("Unauthorized access");
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+router.get('/', handleGetUsers)
+
+/**
+ * Gets a list of ALL users in the ByteBoard database
+ * @param {Object} request The incoming http request. Should have nothing
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @throws InvalidInputError if the user entered a username that doesn't exist
+ * 
+ */
+async function handleGetUsers(request, response) {
+    try {
+        const userList = await model.getAllUsers()
+        const publicUserList = userList.map(user => {
+            return model.getPublicUserInfo(user);
+        })
+
+        response.send(publicUserList);
+    }
+
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.get('/:username', handleGetSingleUser)
+
+/**
+ * Searches for a user's username in the database and sends this single user if found, but throws errors otherwise. If the requester is not the found user, then it will show only the public details,
+ * otherwise it will show all details. 
+ * @param {Object} request The incoming http request with the body containing the username only
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @returns A single user if found, errors otherwise
+ * @throws DatabaseError if something went wrong in MongoDB
+ */
+async function handleGetSingleUser(request, response) {
+    try {
+        const nameToFind = request.params.username;
+        const user = await model.getSingleUser(nameToFind);
+        const infoToSend = (await isRequesterAdmin(request)) ? model.getAllUserInfo(user) : model.getPublicUserInfo(user);
+
+        logger.info(user);
+        response.send(infoToSend);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.put("/", handleUpdateUser);
+
+/**
+ * Updates a user's information if the user exists and sends the updated user object
+ * @param {Object} request The incoming http request with the body containing the username to update as well as the properties to update
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @throws InvalidInputError if the password of the sender is not the same as the password of the user with the username to update
+ */
+async function handleUpdateUser(request, response) {
+    try {
+        if (!await areCredentialsCorrect(request.body.usernameToUpdate, request.body.currentPassword)) 
+            throw new InvalidInputError("Your password is incorrect");
+
+        const nameToUpdate = request.body.usernameToUpdate;
+
+        if (request.body.reputation != null) {
+            // We don't want someone to be able to set their rep because that's cheating
+            request.body.reputation = null;
+        }
+
+        const updatedUser = await model.updateUser(nameToUpdate, request.body);
+        response.send(updatedUser);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+router.delete('/', handleDeleteUser);
+
+/**
+ * Delete's a user from the database and sends the deleted user object
+ * @param {Object} request The incoming http request with the body containing the username to delete
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleDeleteUser(request, response) {
+    try {
+        if (!await areCredentialsCorrect(request.body.usernameToDelete, request.body.currentPassword)) 
+            throw new InvalidInputError("Your password is incorrect");
+
+        const nameToDelete = request.body.usernameToDelete;
+        const deletedUser = await model.deleteUser(nameToDelete);
+
+
+        response.send(deletedUser);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
+
+// Logs an error, and sends a response of 400 if the error is an InvalidInputError, 500 otherwise
+function sendError(error, response) {
+    logger.error(error.message);
+
+    if (error instanceof InvalidInputError) {
+        response.status(400);
+        response.send({ errorMessage: "Invalid Input Error: " + error.message });
+    }
+    else {
+        response.status(500);
+        response.send({ errorMessage: "Internal Error: " + error.message });
+    }
+}
+
+module.exports = { checkCredentials: areCredentialsCorrect, isRequesterAdmin, router, routeRoot }
