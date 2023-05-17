@@ -17,7 +17,6 @@ router.post('/', handleCreatePost);
  * Creates a new post using parameters from a POST request.
  * @param {Object} request The incoming http request with body containing the post title, description, topic name, and author name
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- * @throws InvalidInputError If the author name and/or author password are incorrect
  */
 async function handleCreatePost(request, response) {
     try {
