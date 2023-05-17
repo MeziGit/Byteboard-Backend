@@ -127,7 +127,7 @@ async function getSingleUser(usernameToFind, idToFind = null) {
         const user = await userCollection.findOne(!idToFind ? {username: usernameToFind} : {_id: new ObjectId(idToFind)});
 
         if (!user) 
-            throw new InvalidInputError(`The requested user doesn't exist`);
+            throw new InvalidInputError(`The requested user doesn't exist (${idToFind ? "ID: " + idToFind : usernameToFind})`);
 
         return user;
     }
