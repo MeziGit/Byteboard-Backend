@@ -132,8 +132,10 @@ async function getAllPosts() {
  * @param {Object} propertiesToUpdate 
  * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it
  * @returns The updated post
+ * @throws {DatabaseError} If there was no result from the attempt to update the post
+ * @throws {InvalidInputError} If there was a result but nothing was updated
  */
-async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
+async function updatePost(postId, propertiesToUpdate) {
     try {
         const post = await getSinglePost(postId);
         const postProps = Object.getOwnPropertyNames(post);
@@ -155,8 +157,10 @@ async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
 
         const result = await postCollection.updateOne({_id: post._id}, {$set: updatedProperties});
 
-        if (!result || result.modifiedCount === 0)
-            throw isUserEditing ? new InvalidInputError("Could not update the post") : new DatabaseError("Could not update the post");
+        if (!result)
+            throw new DatabaseError("Could not update the post");
+        if (result.modifiedCount === 0)
+            new InvalidInputError("No posts were updated")
 
         const updatedPost = await getSinglePost(postId);
         return updatedPost;
@@ -219,6 +223,8 @@ async function votePost(postId, votingUser, vote) {
  * Searches for and deletes a post from the database. If successful, the deleted post will be returned, otherwise errors will be thrown
  * @param {String} postId The ID of the post to delete
  * @returns {Post} The deleted post if successful
+ * @throws {DatabaseError} If there was no result from the attempt to delete the post
+ * @throws {InvalidInputError} If there was a result but nothing was deleted
  */
 async function deletePost(postId) {
     try {
