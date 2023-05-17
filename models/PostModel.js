@@ -128,6 +128,23 @@ async function getAllPosts() {
 
 
 /**
+ * Returns a list of all post topics available
+ * @returns A list of all post topics available
+ */
+async function getAllPostTopics() {
+    try {
+        const cursor = await topicCollection.find();
+        const list = await cursor.toArray();
+
+        return list;
+    }
+    catch(error) {
+        initializer.throwProperError(error, "get all post topics");
+    }
+}
+
+
+/**
  * Updates a ByteBoard post and returns it if successful
  * @param {String} postId The ID of the post 
  * @param {Object} propertiesToUpdate 
@@ -269,4 +286,4 @@ async function getPostTopic(topicName, topicId) {
     }
 }
 
-module.exports = { createPost, getSinglePost, getAllPosts, getPostTopic, updatePost, votePost, deletePost };
+module.exports = { createPost, getSinglePost, getAllPosts, getAllPostTopics, getPostTopic, updatePost, votePost, deletePost };
