@@ -28,7 +28,7 @@ class Post {
         this.dateCreated = Date.now();
         this.comments = []; // Array of comment IDs
         this.userVotes = {}; // "Dictionary" of user IDs with the values being each user's vote
-        this.edited = false;
+        this.dateEdited = null;
     }
 }
 
@@ -116,7 +116,7 @@ async function getAllPosts() {
         const postList = await cursor.toArray();
 
         if (!postList || postList.length == 0)
-            throw new DatabaseError("There are no existing ByteBoard users");
+            throw new DatabaseError("Couldn't get all posts");
 
         return postList
     }
@@ -131,13 +131,13 @@ async function getAllPosts() {
  * @param {String} postId The ID of the post 
  * @param {Object} propertiesToUpdate 
  * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it
- * @returns 
+ * @returns The updated post
  */
 async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
     try {
         const post = await getSinglePost(postId);
         const postProps = Object.getOwnPropertyNames(post);
-        const updatedProperties = {edited: true};
+        const updatedProperties = {dateEdited: Date.now()};
         
         for (let i = 0; i < postProps.length; i++) {
             let prop = postProps[i];
@@ -176,36 +176,37 @@ async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
 async function votePost(postId, votingUser, vote) {
     try {
         const post = await getSinglePost(postId);
-        const user = await userModel.getSingleUser(votingUser);
-        const postOwner = await userModel.getSingleUser(null, post.authorId);
-        const userVote = post.userVotes[user._id];
+        const postAuthor = await userModel.getSingleUser(null, post.authorId);
+        const userVote = post.userVotes[votingUser._id];
         const voteExists = userVote !== undefined && userVote !== null;
 
-        if (vote !== 0 && vote !== 1 && vote !== -1)
+
+        if (vote !== 1 && vote !== -1 && !voteExists)
             throw new InvalidInputError("Vote invalid");
 
 
         if (voteExists) {
-            if (userVote === vote) 
-                throw new InvalidInputError("Cannot vote a post with the same vote that was put before");
+            // Undo the user's vote
+            post.userVotes[votingUser._id] = null;
+            post.score -= userVote;
 
-            // 0 removes the user's vote
-            if (vote === 0) {
-                // Undo the user's vote
-                post.score -= userVote;
-                post.userVotes[user._id] = null;
-                postOwner.reputation -= userVote;
-            }
+            if (!userModel.areUsersIdentical(votingUser, postAuthor))
+                postAuthor.reputation -= userVote;
         }
         else {
             // Increase/decrease the score depending on the user's vote
-            post.userVotes[user._id] = vote;
+            post.userVotes[votingUser._id] = vote;
             post.score += vote;
-            postOwner.reputation += vote;
+
+            if (!userModel.areUsersIdentical(votingUser, postAuthor)) 
+                postAuthor.reputation += vote;
         }
 
-        updatePost(post._id, {score: post.score, userVotes: post.userVotes});
-        userModel.updateUser(postOwner.username, {reputation: postOwner.reputation});
+
+        if (!isVoterPostOwner)
+            await userModel.updateUser(postAuthor.username, {reputation: postAuthor.reputation});
+
+        await updatePost(post._id, {score: post.score, userVotes: post.userVotes});
     }
     catch(error) {
         initializer.throwProperError(error, "vote a post");
