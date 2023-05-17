@@ -71,7 +71,7 @@ async function createPostComment(content, postId, authorId) {
             if (!result)
                 throw new InvalidInputError("Could not create new post comment");
 
-            post.comments.push(newPostComment);
+            post.comments.push(newPostComment._id);
             await postModel.updatePost(postId, {comments: post.comments});
 
             return newPostComment;
@@ -109,7 +109,7 @@ async function getSinglePostComment(postCommentId) {
  * Returns a list of all the posts in the database
  * @returns {Post[]} A list of all the posts in the database
  */
-async function getAllPosts() {
+async function getAllPostComments() {
     try {
         const cursor = await postCollection.find();
         const postList = await cursor.toArray();
@@ -242,4 +242,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPostComment, getSinglePostComment, getAllPosts, updatePost, votePost, deletePost };
+module.exports = { createPostComment, getSinglePostComment, getAllPosts: getAllPostComments, updatePost, votePost, deletePost };
