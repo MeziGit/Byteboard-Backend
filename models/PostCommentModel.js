@@ -70,6 +70,9 @@ async function createPostComment(content, postId, authorId) {
             if (!result)
                 throw new InvalidInputError("Could not create new post comment");
 
+            post.comments.push(newPostComment);
+            await postModel.updatePost(postId, {comments: post.comments});
+
             return newPostComment;
         }
     }
