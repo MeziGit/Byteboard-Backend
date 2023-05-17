@@ -215,9 +215,22 @@ async function votePost(postId, votingUser, vote) {
 }
 
 
+/**
+ * Searches for and deletes a post from the database. If successful, the deleted post will be returned, otherwise errors will be thrown
+ * @param {String} postId The ID of the post to delete
+ * @returns {Post} The deleted post if successful
+ */
 async function deletePost(postId) {
     try {
+        const postToDelete = await getSinglePost(postId);
+        const result = await postCollection.deleteOne({_id: postId});
         
+        if (!result)
+            throw new DatabaseError("Couldn't delete post");
+        if (result.deletedCount == 0)
+             throw new InvalidInputError("No posts were deleted");
+
+        return postToDelete;
     }
     catch(error) {
         initializer.throwProperError(error, "delete a post");
