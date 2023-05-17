@@ -84,23 +84,23 @@ async function createPostComment(content, postId, authorId) {
 
 
 /**
- * Searches for and returns a specific post using the specified post ID
- * @param {String} postId The ID of the post to search for
- * @returns {Post} The found post object
- * @throws InvalidInputError if the requested post doesn't exist
+ * Searches for and returns a specific post comment using the specified comment ID
+ * @param {String} postCommentId The ID of the post comment to search for
+ * @returns {PostComment} The found post comment object
+ * @throws InvalidInputError if the requested post comment doesn't exist
  * @throws DatabaseError if something went wrong in MongoDB
  */
-async function getSinglePostComment(postId) {
+async function getSinglePostComment(postCommentId) {
     try {
-        const post = await postCollection.findOne({_id : new ObjectId(postId)});
+        const comment = await postCommentCollection.findOne({_id : new ObjectId(postCommentId)});
 
-        if (!post) 
-            throw new InvalidInputError(`The requested post doesn't exist`);
+        if (!comment) 
+            throw new InvalidInputError(`The requested comment doesn't exist`);
 
-        return post;
+        return comment;
     }
     catch(error) {
-        initializer.throwProperError(error, "get a single post");
+        initializer.throwProperError(error, "get a single post comment");
     }
 }
 
@@ -129,16 +129,16 @@ async function getAllPosts() {
  * Updates a ByteBoard post and returns it if successful
  * @param {String} postId The ID of the post 
  * @param {Object} propertiesToUpdate 
- * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it
+ * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it. Is false by default
  * @returns The updated post
  * @throws {DatabaseError} If there was no result from the attempt to update the post
  * @throws {InvalidInputError} If there was a result but nothing was updated
  */
-async function updatePost(postId, propertiesToUpdate) {
+async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
     try {
         const post = await getSinglePostComment(postId);
         const postProps = Object.getOwnPropertyNames(post);
-        const updatedProperties = {dateEdited: Date.now()};
+        const updatedProperties =  {dateEdited: Date.now()};
         
         for (let i = 0; i < postProps.length; i++) {
             let prop = postProps[i];
