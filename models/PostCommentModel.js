@@ -113,8 +113,15 @@ async function getAllPostComments(postId) {
     try {
         const post = await postModel.getSinglePost(postId);
         const commentList = await Promise.all(post.comments.map(async commentId => {
-            const comment = await getSinglePostComment(commentId);
-            return comment;
+            try {
+                const comment = await getSinglePostComment(commentId);
+                return comment;
+            }
+            catch(error) {
+                logger.error(error.message);
+            }
+            
+            return null;
         }));
 
         return commentList;
