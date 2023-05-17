@@ -128,24 +128,29 @@ async function handleVote(request, response) {
     }
 }
 
-// router.delete('/', handleDeleteUser);
+router.delete('/', handleDeletePost);
 
-// /**
-//  * Delete's a user from the database and sends the deleted user object
-//  * @param {Object} request The incoming http request with the body containing the username to delete
-//  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
-//  */
-// async function handleDeleteUser(request, response) {
-//     try {
-//         const nameToDelete = request.body.usernameToDelete;
-//         const deletedUser = await model.deleteUser(nameToDelete);
+/**
+ * Deletes a post from the database and sends the deleted post object
+ * @param {Object} request The incoming http request with the body containing the ID of the post to delete
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleDeletePost(request, response) {
+    try {
+        const postId = request.body.postId;
+        const user = await getAuthenticatedUser(request);
+        const post = await model.getSinglePost(postId), postAuthor = await getSingleUser(post.authorId);
 
-//         response.send(deletedUser);
-//     }
-//     catch(error) {
-//         sendError(error, response);
-//     }
-// }
+        if (!areUsersIdentical(user, postAuthor))
+            response.sendStatus(401);
+
+        const deletedPost = await model.deletePost(postId);
+        response.send(deletedPost);
+    }
+    catch(error) {
+        sendError(error, response);
+    }
+}
 
 
 
