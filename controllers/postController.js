@@ -37,6 +37,24 @@ async function handleCreatePost(request, response) {
 }
 
 
+router.get("/topics", handleGetPostTopics);
+/**
+ * Gets a list of all post topics available
+ * @param {Object} request The incoming http request. Should have nothing
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetPostTopics(request, response) {
+    try {
+        let topicList = await model.getAllPostTopics();
+        response.send(topicList);
+    }
+
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
 router.get('/:postId', handleGetSinglePost);
 
 /**
@@ -68,23 +86,6 @@ async function handleGetPosts(request, response) {
     try {
         let postList = await model.getAllPosts();
         response.send(postList);
-    }
-
-    catch (error) {
-        sendError(error, response);
-    }
-}
-
-router.get("/topics", handleGetPostTopics);
-/**
- * Gets a list of all post topics available
- * @param {Object} request The incoming http request. Should have nothing
- * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- */
-async function handleGetPostTopics(request, response) {
-    try {
-        let topicList = await model.getAllPostTopics();
-        response.send(topicList);
     }
 
     catch (error) {
