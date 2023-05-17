@@ -75,6 +75,24 @@ async function handleGetSinglePost(request, response) {
     }
 }
 
+router.get("/users/:userId", handleGetPostsFromUser);
+/**
+ * Gets all posts created by the given user and sends them as an array
+ * @param {Object} request The incoming http request with body containing the user's ID
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetPostsFromUser(request, response) {
+    try{
+        const userId = request.params.userId;
+        const allPostsFromUser = model.getAllPostsFromUser(userId);
+
+        response.send(allPostsFromUser);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
 
 router.get('/', handleGetPosts)
 /**

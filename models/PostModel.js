@@ -126,6 +126,27 @@ async function getAllPosts() {
     }
 }
 
+/**
+ * Gets all posts created by the given user and returns them as an array
+ * @param {User} userId The ID of the user to get the posts from
+ * @returns {Array} An array of posts created by the given user
+ */
+async function getAllPostsFromUser(userId) {
+    try {
+        const user = await userModel.getSingleUser(null, userId);
+        const allPosts = await getAllPosts();
+        
+        const allPostsFromUser = await Promise.all(allPosts.filter(async post => {
+            const author = await userModel.getSingleUser(post.authorId);
+            return userModel.areUsersIdentical(user, author);
+        }));
+
+        return allPostsFromUser;
+    }
+    catch(error) {
+        initializer.throwProperError(error, "get all posts from a user");
+    }
+}
 
 /**
  * Returns a list of all post topics available
@@ -286,4 +307,4 @@ async function getPostTopic(topicName, topicId) {
     }
 }
 
-module.exports = { createPost, getSinglePost, getAllPosts, getAllPostTopics, getPostTopic, updatePost, votePost, deletePost };
+module.exports = { createPost, getSinglePost, getAllPosts, getAllPostsFromUser, getAllPostTopics, getPostTopic, updatePost, votePost, deletePost };
