@@ -65,7 +65,7 @@ async function createPostComment(content, postId, authorId) {
 
 
         if (author && post) {
-            const newPostComment = new PostComment(content, postId, authorId);
+            const newPostComment = new PostComment(content, post._id, authorId);
             const result = postCommentCollection.insertOne(newPostComment);
 
             if (!result)
