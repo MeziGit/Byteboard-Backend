@@ -238,7 +238,7 @@ async function deleteUser(usernameToDelete) {
  * @param {User} user2 The second user to compare
  * @returns {Boolean} Whether the two users have the same ID or not
  */
-async function areUsersIdentical(user1, user2) {
+function areUsersIdentical(user1, user2) {
     return user1._id.toString() === user2._id.toString();
 }
 
