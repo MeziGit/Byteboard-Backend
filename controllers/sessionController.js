@@ -1,11 +1,12 @@
 const express = require("express");
 const { Session, createSession, getSession, deleteSession, } = require("../models/Session")
-const { checkCredentials } = require("./userController");
+const { checkCredentials, sendError } = require("./userController");
 const userModel = require("../models/UserModel");
 
 const router = express.Router();
 const routeRoot = "/session";
 const logger = require('../logger');
+const { InvalidInputError } = require("../models/InvalidInputError");
 
 
 router.get('/logout', logoutUser);
@@ -17,19 +18,19 @@ async function logoutUser(request, response) {
             response.sendStatus(401); // Unauthorized access
             return;
         }
-    
+
         const user = await getUserFromId(authenticatedSession.userSession.userId);
         deleteSession(authenticatedSession.sessionId)
-    
-    
+
+
         logger.info("Logged out user " + user.username);
         // "erase" cookie by forcing it to expire.
         response.cookie("sessionId", "", { expires: new Date(), httpOnly: true });
         //response.redirect('/');
-    
+
         response.sendStatus(200);
     }
-    catch(error) {
+    catch (error) {
         logger.error(error);
         response.sendStatus(500);
     }
@@ -41,41 +42,46 @@ router.post("/login", loginUser);
 
 /** Log a user in and create a session cookie that will expire in 2 minutes */
 async function loginUser(request, response) {
-    // Checks if the user is already logged in, and will send a 401 status if so
-    const authenticatedSession = authenticateUser(request);
-    if (authenticatedSession) {
-        response.sendStatus(401); // Unauthorized access
-        return;
-    }
+    try {
 
-    // Let's assume successful login for now with placeholder username
-    const username = request.body.username
-    const password = request.body.password
 
-    if (username && password) {
-        if (await checkCredentials(username, password)) {
-            const user = await userModel.getSingleUser(username);
-            logger.info("Successful login for user " + username)
-
-            const sessionId = createSession(user._id, 2);
-
-            response.cookie("sessionId", sessionId, { expires: getSession(sessionId).expiresAt, httpOnly: true })
-            response.send("successful login for user " + username);
+        // Checks if the user is already logged in, and will send a 401 status if so
+        const authenticatedSession = authenticateUser(request);
+        if (authenticatedSession) {
+            response.sendStatus(401); // Unauthorized access
             return;
+        }
+
+        // Let's assume successful login for now with placeholder username
+        const username = request.body.username
+        const password = request.body.password
+
+        if (username && password) {
+            if (await checkCredentials(username, password)) {
+                const user = await userModel.getSingleUser(username);
+                logger.info("Successful login for user " + username)
+
+                const sessionId = createSession(user._id, 2);
+
+                response.cookie("sessionId", sessionId, { expires: getSession(sessionId).expiresAt, httpOnly: true })
+                response.send("successful login for user " + username);
+                return;
+
+            }
+            else {
+                throw new InvalidInputError("Unsuccessful login: Invalid username / password given for user: " + username)
+            }
 
         }
         else {
-            logger.info("Unsuccessful login: Invalid username / password given for user: " + username)
-            response.status(401)
-            response.send("Unsuccessful login: Invalid username / password given for user: " + username)
-            return;
-        }
 
+            throw new InvalidInputError("Unsuccessful login: empty username or password given")
+        }
     }
-    else {
-        logger.info("Unsuccessful login: empty username or password given")
+    catch (error) {
+        sendError(error, response)
     }
-    response.sendStatus(401)
+
 };
 
 
@@ -136,7 +142,7 @@ async function getAuthenticatedUser(request) {
         const authenticatedSession = authenticateUser(request);
         if (!authenticatedSession) {
             logger.error("Not allowed to get user, as there is no authenticated session");
-            throw new Error("No authenticated session with the requested user exists");
+            throw new InvalidInputError("You are not logged in!");
         }
 
         const user = await getUserFromId(authenticatedSession.userSession.userId);
@@ -156,7 +162,7 @@ function refreshSession(request, response) {
         return;
     }
     // Create and store a new Session object that will expire in 2 minutes.
-    const newSessionId = createSession(authenticatedSession.userSession.userId , 2);
+    const newSessionId = createSession(authenticatedSession.userSession.userId, 2);
     // Delete the old entry in the session map 
     deleteSession(authenticatedSession.sessionId);
 
