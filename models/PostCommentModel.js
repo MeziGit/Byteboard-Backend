@@ -227,7 +227,7 @@ async function votePost(postCommentId, votingUser, vote) {
 async function deletePostComment(postCommentId) {
     try {
         const commentToDelete = await getSinglePostComment(postCommentId);
-        const post = await postModel.getSinglePostComment(postComment.postId);
+        const post = await postModel.getSinglePost(commentToDelete.postId);
         const result = await postCommentCollection.deleteOne({_id: new ObjectId(postCommentId)});
         
         if (!result)
@@ -239,7 +239,7 @@ async function deletePostComment(postCommentId) {
         const indexOfComment = post.comments.indexOf(commentToDelete._id);
         post.comments.splice(indexOfComment, 1);
         //
-        await postModel.updatePostComment(post._id, {comments: post.comments});
+        await postModel.updatePost(post._id, {comments: post.comments});
 
 
         return commentToDelete;
