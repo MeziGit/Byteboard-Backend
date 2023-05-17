@@ -138,7 +138,8 @@ async function handleDeletePost(request, response) {
         const user = await sessionController.getAuthenticatedUser(request);
         const post = await model.getSinglePost(postId), postAuthor = await getSingleUser(null, post.authorId);
 
-        if (!areUsersIdentical(user, postAuthor)) {
+        // A user who isn't the post author or an admin should not be allowed to delete
+        if (!areUsersIdentical(user, postAuthor) && await isRequesterAdmin(request) == false) {
             response.sendStatus(401);
             return;
         }
