@@ -38,24 +38,24 @@ async function handleCreatePostComment(request, response) {
 }
 
 
-// router.get('/:postId', handleGetSinglePost);
-// /**
-//  * Searches for and returns a single post using the specified post ID
-//  * @param {Object} request The incoming http request with body containing the post ID
-//  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
-//  */
-// async function handleGetSinglePost(request, response) {
-//     try {
-//         const idToFind = request.params.postId;
-//         const post = await model.getSinglePost(idToFind);
+router.get('/:postId', handleGetSinglePost);
+/**
+ * Searches for and returns a single post using the specified post ID
+ * @param {Object} request The incoming http request with body containing the post ID
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetSinglePost(request, response) {
+    try {
+        const idToFind = request.params.postId;
+        const post = await model.getSinglePost(idToFind);
 
-//         logger.info(post);
-//         response.send(post);
-//     }
-//     catch (error) {
-//         sendError(error, response);
-//     }
-// }
+        logger.info(post);
+        response.send(post);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
 
 
 router.get('/', handleGetPosts)
