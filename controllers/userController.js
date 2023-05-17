@@ -80,12 +80,10 @@ async function registerUser(request, response) {
             throw new InvalidInputError("The username, email, and/or password are not filled in correctly");
     
 
-    } catch (err) {
-        logger.error(err.message);
+    } catch (error) {
+        sendError(error, response);
 
     }
-    response.status(401);
-    response.send({ success: false });
 }
 
 
@@ -184,7 +182,7 @@ async function handleUpdateUser(request, response) {
             request.body.reputation = null;
         }
 
-        const updatedUser = await model.updateUser(nameToUpdate, request.body, true);
+        const updatedUser = await model.updateUser(nameToUpdate, request.body);
         response.send(updatedUser);
     }
     catch (error) {
@@ -196,7 +194,7 @@ async function handleUpdateUser(request, response) {
 router.delete('/', handleDeleteUser);
 
 /**
- * Deletes a user from the database and sends the deleted user object
+ * Delete's a user from the database and sends the deleted user object
  * @param {Object} request The incoming http request with the body containing the username to delete
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
@@ -232,4 +230,4 @@ function sendError(error, response) {
     }
 }
 
-module.exports = { checkCredentials: areCredentialsCorrect, isRequesterAdmin, router, routeRoot }
+module.exports = { checkCredentials: areCredentialsCorrect, isRequesterAdmin, router, routeRoot,sendError }

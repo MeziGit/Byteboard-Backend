@@ -112,6 +112,7 @@ async function createUser(username, email, password) {
     }
     catch(error) {
         initializer.throwProperError(error, "create a user");
+        throw error;
     }
 }
 
