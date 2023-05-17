@@ -30,7 +30,7 @@ async function handleCreatePost(request, response) {
             response.send(createdPost);
         }
         else
-            throw new InvalidInputError("Unauthorized access");
+            response.sendStatus(401);
     }
     catch (error) {
         sendError(error, response);
