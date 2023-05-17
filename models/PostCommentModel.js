@@ -238,4 +238,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPost: createPostComment, getSinglePost, getAllPosts, updatePost, votePost, deletePost };
+module.exports = { createPostComment, getSinglePost, getAllPosts, updatePost, votePost, deletePost };
