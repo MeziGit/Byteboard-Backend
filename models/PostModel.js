@@ -147,9 +147,9 @@ async function getAllPostTopics() {
 /**
  * Updates a ByteBoard post and returns it if successful
  * @param {String} postId The ID of the post 
- * @param {Object} propertiesToUpdate 
+ * @param {Object} propertiesToUpdate The properties of the post to update. There are a few that are forbidden to update
  * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it. Is false by default
- * @returns The updated post
+ * @returns {Post} The updated post
  * @throws {DatabaseError} If there was no result from the attempt to update the post
  * @throws {InvalidInputError} If there was a result but nothing was updated
  */
