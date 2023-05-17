@@ -5,7 +5,7 @@ const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
 
-const FORBIDDEN_UPDATE_PROPS = ["_id", "dateCreated", "edited"];
+const FORBIDDEN_UPDATE_PROPS = ["_id", "dateCreated", "dateEdited"];
 
 /**
  * Represents a post created by a user.
