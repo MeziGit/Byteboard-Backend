@@ -1,5 +1,6 @@
 const initializer = require("./Initialize");
 const userModel = require("./UserModel");
+const postModel = require("./PostModel");
 const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
@@ -30,6 +31,7 @@ class PostComment {
 
 let postCommentCollection;
 let postCollection;
+let userCollection;
 
 initializer.getCollection(process.env.POST_COMMENT_COLLECTION)
     .then(function(result) {
@@ -39,43 +41,40 @@ initializer.getCollection(process.env.POST_COLLECTION)
     .then(function(result) {
         postCollection = result;
     });
+initializer.getCollection(process.env.USER_COLLECTION)
+    .then(function(result) {
+        userCollection = result;
+    });
 
 
 
 /**
- * Creates a new post
- * @param {String} postTitle The title of the post
- * @param {String} postContent The content/description of the post
- * @param {String[]} topicNames An array of topic names (each must exist in the database). Must have at least one topic name
+ * Creates a new post comment
+ * @param {String} content The content of the comment
+ * @param {String} postId The ID of the post (must be an existing post in the database)
  * @param {String} authorId The ID of the author (must be an existing user in the database)
- * @returns {Post} The created post
+ * @returns {PostComment} The created post comment
  * @throws InvalidInputError if the requested properties are not valid
  * @throws DatabaseError if something went wrong in MongoDB
  */
-async function createPost(postTitle, postContent, topicNames, authorId) {
+async function createPostComment(content, postId, authorId) {
     try {
         const author = await userModel.getSingleUser(null, authorId);
-        const topics = await Promise.all(topicNames.map(async topicName => {
-            const topic = await getPostTopic(topicName);
-            return topic;
-        }));
+        const post = await postModel.getSinglePost(postId);
 
 
-        if (author && topics) {
-            if (topics.length <= 0)
-                throw new InvalidInputError("The post must have at least one topic");
-
-            const newPost = new Post(postTitle, postContent, topics, authorId)
-            const result = postCollection.insertOne(newPost);
+        if (author && post) {
+            const newPostComment = new PostComment(content, postId, authorId);
+            const result = postCommentCollection.insertOne(newPostComment);
 
             if (!result)
-                throw new InvalidInputError("Could not create new post");
+                throw new InvalidInputError("Could not create new post comment");
 
-            return newPost;
+            return newPostComment;
         }
     }
     catch(err) {
-        initializer.throwProperError(err, "create a post");
+        initializer.throwProperError(err, "create a post comment");
     }
 }
 
@@ -239,4 +238,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPost, getSinglePost, getAllPosts, updatePost, votePost, deletePost };
+module.exports = { createPost: createPostComment, getSinglePost, getAllPosts, updatePost, votePost, deletePost };
