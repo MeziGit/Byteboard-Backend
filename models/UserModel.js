@@ -232,6 +232,15 @@ async function deleteUser(usernameToDelete) {
 }
 
 
+/**
+ * Checks if two users have the same ID and returns the result
+ * @param {User} user1 The first user to compare
+ * @param {User} user2 The second user to compare
+ * @returns {Boolean} Whether the two users have the same ID or not
+ */
+async function areUsersIdentical(user1, user2) {
+    return user1._id.toString() === user2._id.toString();
+}
 
 
 async function doesUserExist(username, email) {
@@ -261,4 +270,4 @@ async function doesEmailExist(email) {
 
 
 
-module.exports = { getPublicUserInfo, getAllUserInfo, createUser, getSingleUser, getAllUsers, updateUser, deleteUser };
+module.exports = { getPublicUserInfo, getAllUserInfo, createUser, getSingleUser, getAllUsers, updateUser, deleteUser, areUsersIdentical };
