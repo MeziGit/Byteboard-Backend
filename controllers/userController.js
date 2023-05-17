@@ -196,7 +196,7 @@ async function handleUpdateUser(request, response) {
 router.delete('/', handleDeleteUser);
 
 /**
- * Delete's a user from the database and sends the deleted user object
+ * Deletes a user from the database and sends the deleted user object
  * @param {Object} request The incoming http request with the body containing the username to delete
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
