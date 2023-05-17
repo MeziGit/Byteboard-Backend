@@ -106,21 +106,21 @@ async function getSinglePostComment(postCommentId) {
 
 
 /**
- * Returns a list of all the posts in the database
- * @returns {Post[]} A list of all the posts in the database
+ * Returns a list of all the comments on a specific post
+ * @returns {PostComment[]} A list of all the comments on a specific post
  */
-async function getAllPostComments() {
+async function getAllPostComments(postId) {
     try {
-        const cursor = await postCollection.find();
-        const postList = await cursor.toArray();
+        const post = await postModel.getSinglePost(postId);
+        const commentList = await Promise.all(post.comments.map(async commentId => {
+            const comment = await getSinglePostComment(commentId);
+            return comment;
+        }));
 
-        if (!postList || postList.length == 0)
-            throw new DatabaseError("Couldn't get all posts");
-
-        return postList
+        return commentList;
     }
     catch(error) {
-        initializer.throwProperError(error, "get all posts");
+        initializer.throwProperError(error, "get all comments for a post");
     }
 }
 
@@ -242,4 +242,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPostComment, getSinglePostComment, getAllPosts: getAllPostComments, updatePost, votePost, deletePost };
+module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePost, votePost, deletePost };

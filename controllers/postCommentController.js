@@ -58,19 +58,19 @@ async function handleGetSinglePostComment(request, response) {
 }
 
 
-router.get('/', handleGetPosts)
+router.get('/', handleGetPostComments)
 /**
- * Gets a list of ALL posts in the ByteBoard database
+ * Gets a list of ALL comments for a specific post
  * @param {Object} request The incoming http request. Should have nothing
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleGetPosts(request, response) {
+async function handleGetPostComments(request, response) {
     try {
-        let postList = await model.getAllPosts();
+        const postId = request.body.postId;
+        const postList = await model.getAllPostComments(postId);
 
         response.send(postList);
     }
-
     catch (error) {
         sendError(error, response);
     }
