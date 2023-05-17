@@ -84,7 +84,7 @@ router.get("/users/:userId", handleGetPostsFromUser);
 async function handleGetPostsFromUser(request, response) {
     try{
         const userId = request.params.userId;
-        const allPostsFromUser = model.getAllPostsFromUser(userId);
+        const allPostsFromUser = await model.getAllPostsFromUser(userId);
 
         response.send(allPostsFromUser);
     }

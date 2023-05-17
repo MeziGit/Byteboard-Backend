@@ -1,6 +1,7 @@
 const initializer = require("./Initialize");
 const userModel = require("./UserModel");
 const validator = require("../utils/ByteBoardValidator");
+const logger = require("../logger");
 const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
@@ -135,11 +136,15 @@ async function getAllPostsFromUser(userId) {
     try {
         const user = await userModel.getSingleUser(null, userId);
         const allPosts = await getAllPosts();
-        
-        const allPostsFromUser = await Promise.all(allPosts.filter(async post => {
-            const author = await userModel.getSingleUser(post.authorId);
-            return userModel.areUsersIdentical(user, author);
-        }));
+        const allPostsFromUser = [];
+
+        for (let i = 0; i < allPosts.length; i++) {
+            const post = allPosts[i];
+            const author = await userModel.getSingleUser(null, post.authorId);
+
+            if (userModel.areUsersIdentical(user, author))
+                allPostsFromUser.push(post);
+        }
 
         return allPostsFromUser;
     }
