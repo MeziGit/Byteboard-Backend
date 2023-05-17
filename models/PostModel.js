@@ -140,7 +140,7 @@ async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
     try {
         const post = await getSinglePost(postId);
         const postProps = Object.getOwnPropertyNames(post);
-        const updatedProperties = {dateEdited: Date.now()};
+        const updatedProperties = isUserEditing ? {dateEdited: Date.now()} : {};
         
         for (let i = 0; i < postProps.length; i++) {
             let prop = postProps[i];
