@@ -108,7 +108,7 @@ async function handleUpdatePost(request, response) {
     }
 }
 
-router.put("/vote/:postId", handleVote);
+router.put("/vote", handleVote);
 /**
  * 
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
@@ -117,7 +117,7 @@ router.put("/vote/:postId", handleVote);
 async function handleVote(request, response) {
     try {
         const votingUser = await sessionController.getAuthenticatedUser(request);
-        const postId = request.params.postId;
+        const postId = request.body.postId;
         const vote = request.body.vote;
 
         await model.votePost(postId, votingUser, vote);
@@ -138,11 +138,14 @@ router.delete('/', handleDeletePost);
 async function handleDeletePost(request, response) {
     try {
         const postId = request.body.postId;
-        const user = await getAuthenticatedUser(request);
-        const post = await model.getSinglePost(postId), postAuthor = await getSingleUser(post.authorId);
+        const user = await sessionController.getAuthenticatedUser(request);
+        const post = await model.getSinglePost(postId), postAuthor = await getSingleUser(null, post.authorId);
 
-        if (!areUsersIdentical(user, postAuthor))
+        if (!areUsersIdentical(user, postAuthor)) {
             response.sendStatus(401);
+            return;
+        }
+            
 
         const deletedPost = await model.deletePost(postId);
         response.send(deletedPost);
