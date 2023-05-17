@@ -106,17 +106,17 @@ async function handleUpdatePostComment(request, response) {
 
 router.put("/vote", handleVote);
 /**
- * 
+ * Alters to a post comment's score based on a user's vote
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
 async function handleVote(request, response) {
     try {
         const votingUser = await sessionController.getAuthenticatedUser(request);
-        const postId = request.body.postId;
+        const postCommentId = request.body.postCommentId;
         const vote = request.body.vote;
 
-        await model.votePost(postId, votingUser, vote);
+        await model.votePost(postCommentId, votingUser, vote);
         response.sendStatus(200);
     }
     catch(error) {

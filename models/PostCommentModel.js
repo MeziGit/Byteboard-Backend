@@ -171,16 +171,16 @@ async function updatePostComment(postCommentId, propertiesToUpdate, isUserEditin
 
 
 /**
- * Alters to a post's score based on a user's vote, which then alters the poster's reputation
- * @param {String} postId The ID of the post
+ * Alters to a post comment's score based on a user's vote
+ * @param {String} postCommentId The ID of the post comment
  * @param {User} votingUser The username of the user who voted
  * @param {Number} vote The type of vote the user put. 1 will add to the score, whereas -1 will remove from the score. 0 will just remove the user's vote
  */
-async function votePost(postId, votingUser, vote) {
+async function votePost(postCommentId, votingUser, vote) {
     try {
-        const post = await getSinglePostComment(postId);
-        const postAuthor = await userModel.getSingleUser(null, post.authorId);
-        const userVote = post.userVotes[votingUser._id];
+        const comment = await getSinglePostComment(postCommentId);
+        const postAuthor = await userModel.getSingleUser(null, comment.authorId);
+        const userVote = comment.userVotes[votingUser._id];
         const voteExists = userVote !== undefined && userVote !== null;
         const isVoterPostAuthor = userModel.areUsersIdentical(votingUser, postAuthor);
 
@@ -191,26 +191,25 @@ async function votePost(postId, votingUser, vote) {
 
         if (voteExists) {
             // Undo the user's vote
-            post.userVotes[votingUser._id] = null;
-            post.score -= userVote;
+            comment.userVotes[votingUser._id] = null;
+            comment.score -= userVote;
 
-            if (!isVoterPostAuthor)
-                postAuthor.reputation -= userVote;
+            // if (!isVoterPostAuthor)
+            //     postAuthor.reputation -= userVote;
         }
         else {
             // Increase/decrease the score depending on the user's vote
-            post.userVotes[votingUser._id] = vote;
-            post.score += vote;
+            comment.userVotes[votingUser._id] = vote;
+            comment.score += vote;
 
-            if (!isVoterPostAuthor) 
-                postAuthor.reputation += vote;
+            // if (!isVoterPostAuthor) 
+            //     postAuthor.reputation += vote;
         }
 
+        // if (!isVoterPostAuthor)
+        //     await userModel.updateUser(postAuthor.username, {reputation: postAuthor.reputation});
 
-        if (!isVoterPostAuthor)
-            await userModel.updateUser(postAuthor.username, {reputation: postAuthor.reputation});
-
-        await updatePostComment(post._id, {score: post.score, userVotes: post.userVotes});
+        await updatePostComment(comment._id, {score: comment.score, userVotes: comment.userVotes});
     }
     catch(error) {
         initializer.throwProperError(error, "vote a post");
