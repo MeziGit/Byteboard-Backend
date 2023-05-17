@@ -55,7 +55,7 @@ async function handleGetPostTopics(request, response) {
 }
 
 
-router.get('/:postId', handleGetSinglePost);
+router.get('/ids/:postId', handleGetSinglePost);
 
 /**
  * Searches for and returns a single post using the specified post ID
