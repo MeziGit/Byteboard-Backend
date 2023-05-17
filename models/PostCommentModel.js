@@ -227,12 +227,20 @@ async function votePost(postCommentId, votingUser, vote) {
 async function deletePostComment(postCommentId) {
     try {
         const commentToDelete = await getSinglePostComment(postCommentId);
-        const result = await postCollection.deleteOne({_id: new ObjectId(postCommentId)});
+        const post = await postModel.getSinglePostComment(postComment.postId);
+        const result = await postCommentCollection.deleteOne({_id: new ObjectId(postCommentId)});
         
         if (!result)
             throw new DatabaseError("Couldn't delete the post comment");
         if (result.deletedCount == 0)
              throw new InvalidInputError("No post comments were deleted");
+
+        // Delete the comment from the post's comment array
+        const indexOfComment = post.comments.indexOf(commentToDelete._id);
+        post.comments.splice(indexOfComment, 1);
+        //
+        await postModel.updatePostComment(post._id, {comments: post.comments});
+
 
         return commentToDelete;
     }

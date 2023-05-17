@@ -133,7 +133,7 @@ router.delete('/', handleDeletePost);
  */
 async function handleDeletePost(request, response) {
     try {
-        const postCommentId = request.body.postId;
+        const postCommentId = request.body.postCommentId;
         const user = await sessionController.getAuthenticatedUser(request);
         const comment = await model.getSinglePostComment(postCommentId), postAuthor = await getSingleUser(null, comment.authorId);
 
