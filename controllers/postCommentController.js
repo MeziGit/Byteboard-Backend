@@ -38,7 +38,7 @@ async function handleCreatePostComment(request, response) {
 }
 
 
-router.get('/:postCommentId', handleGetSinglePostComment);
+router.get('/ids/:postCommentId', handleGetSinglePostComment);
 /**
  * Searches for and returns a single post comment using the specified comment ID
  * @param {Object} request The incoming http request with body containing the post comment ID
@@ -58,7 +58,7 @@ async function handleGetSinglePostComment(request, response) {
 }
 
 
-router.get('/', handleGetPostComments)
+router.get('/post_ids/:postId', handleGetPostComments)
 /**
  * Gets a list of ALL comments for a specific post
  * @param {Object} request The incoming http request. Should have nothing
@@ -66,7 +66,7 @@ router.get('/', handleGetPostComments)
  */
 async function handleGetPostComments(request, response) {
     try {
-        const postId = request.body.postId;
+        const postId = request.params.postId;
         const postList = await model.getAllPostComments(postId);
 
         response.send(postList);
