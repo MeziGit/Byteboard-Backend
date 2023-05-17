@@ -19,7 +19,7 @@ class PostComment {
      * @param {String} authorId The ID of the user who created the comment
      */
     constructor(content, postId, authorId) {
-        this.postContent = content;
+        this.content = content;
         this.postId = postId;
         this.authorId = authorId;
         
