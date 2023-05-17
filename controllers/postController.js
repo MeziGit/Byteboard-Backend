@@ -1,13 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const routeRoot = "/posts";
-const validator = require('validator');
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
 const logger = require('../logger')
 const model = require("../models/PostModel")
 const sessionController = require('./sessionController');
-const { checkCredentials, isRequesterAdmin } = require('./userController');
+const { isRequesterAdmin } = require('./userController');
 const { areUsersIdentical, getSingleUser } = require("../models/UserModel");
 const { DatabaseError } = require('../models/DatabaseError')
 const { InvalidInputError } = require('../models/InvalidInputError');
