@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 app.use(cookieParser());
 
-const controllers = ['sessionController', 'userController', 'postController', 'homeController','errorController']
+const controllers = ['sessionController', 'userController', 'postController', 'postCommentController', 'homeController', 'errorController']
 
 app.use(express.json());
 // Configuring body parser middleware
