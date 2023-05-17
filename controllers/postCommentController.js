@@ -77,24 +77,24 @@ async function handleGetPostComments(request, response) {
 }
 
 
-router.put("/", handleUpdatePost);
+router.put("/", handleUpdatePostComment);
 /**
  * Updates a user's information if the user exists and sends the updated user object
- * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
+ * @param {Object} request The incoming http request with the body containing the ID of the post comment to update as well as the properties to update
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleUpdatePost(request, response) {
+async function handleUpdatePostComment(request, response) {
     try {
-        const postId = request.body.postId;
-        const post = await model.getSinglePost(postId);
+        const postCommentId = request.body.postCommentId;
+        const comment = await model.getSinglePostComment(postCommentId);
         const currentUser = await sessionController.getAuthenticatedUser(request);
-        const postAuthor = await getSingleUser(null, post.authorId);
+        const commentAuthor = await getSingleUser(null, comment.authorId);
 
-        // The person updating the post must be the author
-        if (areUsersIdentical(currentUser, postAuthor)) {
-            const updatedPost = await model.updatePost(postId, request.body);
+        // The person updating the post comment must be the author
+        if (areUsersIdentical(currentUser, commentAuthor)) {
+            const updatedComment = await model.updatePostComment(postCommentId, request.body);
 
-            response.send(updatedPost);
+            response.send(updatedComment);
         }
         else
             response.sendStatus(401);

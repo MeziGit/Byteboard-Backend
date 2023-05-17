@@ -126,27 +126,27 @@ async function getAllPostComments(postId) {
 
 
 /**
- * Updates a ByteBoard post and returns it if successful
- * @param {String} postId The ID of the post 
- * @param {Object} propertiesToUpdate 
- * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it. Is false by default
- * @returns The updated post
- * @throws {DatabaseError} If there was no result from the attempt to update the post
+ * Updates a ByteBoard post comment and returns it if successful
+ * @param {String} postCommentId The ID of the post comment
+ * @param {Object} propertiesToUpdate The properties of the post comment to update. There are a few that are forbidden to update
+ * @param {Boolean} isUserEditing Determines whether a user is editing the post comment or the system is editing it. Is false by default
+ * @returns {PostComment} The updated post comment
+ * @throws {DatabaseError} If there was no result from the attempt to update the post comment
  * @throws {InvalidInputError} If there was a result but nothing was updated
  */
-async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
+async function updatePostComment(postCommentId, propertiesToUpdate, isUserEditing = false) {
     try {
-        const post = await getSinglePostComment(postId);
-        const postProps = Object.getOwnPropertyNames(post);
-        const updatedProperties =  {dateEdited: Date.now()};
+        const comment = await getSinglePostComment(postCommentId);
+        const commentProps = Object.getOwnPropertyNames(comment);
+        const updatedProperties = isUserEditing ? {dateEdited: Date.now()} : {};
         
-        for (let i = 0; i < postProps.length; i++) {
-            let prop = postProps[i];
+        for (let i = 0; i < commentProps.length; i++) {
+            let prop = commentProps[i];
             propValue = propertiesToUpdate[prop];
 
         
             // The property must not be a forbidden-to-update one
-            if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) === -1) {
+            if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) === -1 && (!isUserEditing || FORBIDDEN_USER_UPDATE_PROPS.indexOf(prop) === -1)) {
                 if (propValue !== undefined && propValue !== null) {
                     updatedProperties[prop] = propValue;
                 }
@@ -154,15 +154,15 @@ async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
         }
 
 
-        const result = await postCollection.updateOne({_id: post._id}, {$set: updatedProperties});
+        const result = await postCommentCollection.updateOne({_id: comment._id}, {$set: updatedProperties});
 
         if (!result)
-            throw new DatabaseError("Could not update the post");
+            throw new DatabaseError("Could not update the post comment");
         if (result.modifiedCount === 0)
-            new InvalidInputError("No posts were updated")
+            new InvalidInputError("No post comments were updated")
 
-        const updatedPost = await getSinglePostComment(postId);
-        return updatedPost;
+        const updatedPostComment = await getSinglePostComment(postCommentId);
+        return updatedPostComment;
     }
     catch(error) {
         initializer.throwProperError(error, "update a post's details");
@@ -210,7 +210,7 @@ async function votePost(postId, votingUser, vote) {
         if (!isVoterPostAuthor)
             await userModel.updateUser(postAuthor.username, {reputation: postAuthor.reputation});
 
-        await updatePost(post._id, {score: post.score, userVotes: post.userVotes});
+        await updatePostComment(post._id, {score: post.score, userVotes: post.userVotes});
     }
     catch(error) {
         initializer.throwProperError(error, "vote a post");
@@ -242,4 +242,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePost, votePost, deletePost };
+module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePostComment, votePost, deletePost };
