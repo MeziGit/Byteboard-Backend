@@ -214,6 +214,17 @@ async function votePost(postId, votingUser, vote) {
     }
 }
 
+
+async function deletePost(postId) {
+    try {
+        
+    }
+    catch(error) {
+        initializer.throwProperError(error, "delete a post");
+    }
+}
+
+
 /**
  * Searches for and returns a specific post topic using the specified topic name
  * @param {String} topicName The name of the post topic to get
