@@ -131,7 +131,7 @@ async function getAllPosts() {
  * Updates a ByteBoard post and returns it if successful
  * @param {String} postId The ID of the post 
  * @param {Object} propertiesToUpdate 
- * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it
+ * @param {Boolean} isUserEditing Determines whether a user is editing the post or the system is editing it. Is false by default
  * @returns The updated post
  * @throws {DatabaseError} If there was no result from the attempt to update the post
  * @throws {InvalidInputError} If there was a result but nothing was updated
