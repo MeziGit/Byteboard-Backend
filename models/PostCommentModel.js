@@ -218,27 +218,27 @@ async function votePost(postCommentId, votingUser, vote) {
 
 
 /**
- * Searches for and deletes a post from the database. If successful, the deleted post will be returned, otherwise errors will be thrown
- * @param {String} postId The ID of the post to delete
- * @returns {Post} The deleted post if successful
- * @throws {DatabaseError} If there was no result from the attempt to delete the post
+ * Searches for and deletes a post comment from the database. If successful, the deleted comment will be returned, otherwise errors will be thrown
+ * @param {String} postCommentId The ID of the post comment to delete
+ * @returns {Post} The deleted comment if successful
+ * @throws {DatabaseError} If there was no result from the attempt to delete the comment
  * @throws {InvalidInputError} If there was a result but nothing was deleted
  */
-async function deletePost(postId) {
+async function deletePostComment(postCommentId) {
     try {
-        const postToDelete = await getSinglePostComment(postId);
-        const result = await postCollection.deleteOne({_id: new ObjectId(postId)});
+        const commentToDelete = await getSinglePostComment(postCommentId);
+        const result = await postCollection.deleteOne({_id: new ObjectId(postCommentId)});
         
         if (!result)
-            throw new DatabaseError("Couldn't delete post");
+            throw new DatabaseError("Couldn't delete the post comment");
         if (result.deletedCount == 0)
-             throw new InvalidInputError("No posts were deleted");
+             throw new InvalidInputError("No post comments were deleted");
 
-        return postToDelete;
+        return commentToDelete;
     }
     catch(error) {
-        initializer.throwProperError(error, "delete a post");
+        initializer.throwProperError(error, "delete a post comment");
     }
 }
 
-module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePostComment, votePost, deletePost };
+module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePostComment, votePost, deletePostComment };

@@ -127,15 +127,15 @@ async function handleVote(request, response) {
 router.delete('/', handleDeletePost);
 
 /**
- * Deletes a post from the database and sends the deleted post object
- * @param {Object} request The incoming http request with the body containing the ID of the post to delete
+ * Deletes a post from the database and sends the deleted post comment object
+ * @param {Object} request The incoming http request with the body containing the ID of the post comment to delete
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
 async function handleDeletePost(request, response) {
     try {
-        const postId = request.body.postId;
+        const postCommentId = request.body.postId;
         const user = await sessionController.getAuthenticatedUser(request);
-        const post = await model.getSinglePost(postId), postAuthor = await getSingleUser(null, post.authorId);
+        const comment = await model.getSinglePostComment(postCommentId), postAuthor = await getSingleUser(null, comment.authorId);
 
         // A user who isn't the post author or an admin should not be allowed to delete
         if (!areUsersIdentical(user, postAuthor) && await isRequesterAdmin(request) == false) {
@@ -144,8 +144,8 @@ async function handleDeletePost(request, response) {
         }
             
 
-        const deletedPost = await model.deletePost(postId);
-        response.send(deletedPost);
+        const deletedComment = await model.deletePostComment(postCommentId);
+        response.send(deletedComment);
     }
     catch(error) {
         sendError(error, response);
