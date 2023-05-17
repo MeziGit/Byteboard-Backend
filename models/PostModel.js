@@ -135,7 +135,7 @@ async function getAllPosts() {
  * @throws {DatabaseError} If there was no result from the attempt to update the post
  * @throws {InvalidInputError} If there was a result but nothing was updated
  */
-async function updatePost(postId, propertiesToUpdate) {
+async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
     try {
         const post = await getSinglePost(postId);
         const postProps = Object.getOwnPropertyNames(post);
@@ -149,7 +149,8 @@ async function updatePost(postId, propertiesToUpdate) {
             // The property must not be a forbidden-to-update one
             if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) === -1) {
                 if (propValue !== undefined && propValue !== null) {
-                    updatedProperties[prop] = propValue;
+                    if (prop == "score" && !isUserEditing)
+                        updatedProperties[prop] = propValue;
                 }
             }
         }
