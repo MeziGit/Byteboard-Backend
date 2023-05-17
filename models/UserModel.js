@@ -9,6 +9,7 @@ const bcrypt = require('bcrypt');
 const DEFAULT_ACCOUNT_DESCRIPTION = "Hi, I'm a new ByteBoard user";
 const DEFAULT_PFP = "https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png";
 const PUBLIC_USER_PROPS = ["username", "email", "displayName", "description", "reputation", "profilePicture", "verified", "admin"];
+const FORBIDDEN_UPDATE_PROPS = ["_id", "verified", "admin", "reputation"];
 const saltRounds = 10;
 
 /**
@@ -161,10 +162,11 @@ async function getAllUsers()
  * Searches for and updates a user's information
  * @param {String} usernameToUpdate The name of the user to update
  * @param {Object} propertiesToUpdate The properties to update (like username, email, etc.)
+ * @param {Boolean} isUserEditing Determines whether a user is updating themself or the system is updating them. Is false by default
  * @returns {User} The updated user
  * @throws InvalidInputError if the user does not exist or did not get their properties updated
  */
-async function updateUser(usernameToUpdate, propertiesToUpdate) {
+async function updateUser(usernameToUpdate, propertiesToUpdate, isUserEditing = false) {
     try {
         const user = await getSingleUser(usernameToUpdate);
         const userProps = Object.getOwnPropertyNames(user);
@@ -175,7 +177,7 @@ async function updateUser(usernameToUpdate, propertiesToUpdate) {
             let propValue = propertiesToUpdate[prop];
 
 
-            if (prop != "_id") {
+            if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) !== -1 || !isUserEditing) {
                 if (propValue !== undefined && propValue !== null) {
                     switch(prop) {
                         case "username":

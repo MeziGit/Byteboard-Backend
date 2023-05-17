@@ -184,7 +184,7 @@ async function handleUpdateUser(request, response) {
             request.body.reputation = null;
         }
 
-        const updatedUser = await model.updateUser(nameToUpdate, request.body);
+        const updatedUser = await model.updateUser(nameToUpdate, request.body, true);
         response.send(updatedUser);
     }
     catch (error) {
