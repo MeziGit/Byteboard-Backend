@@ -16,17 +16,16 @@ require("mongodb");
 router.post('/', handleCreatePostComment);
 /**
  * Creates a new post comment using parameters from a POST request.
- * @param {Object} request The incoming http request with body containing the post title, description, topic name, and author name
+ * @param {Object} request The incoming http request with body containing the comment content and the ID of the post it's commenting on
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- * @throws InvalidInputError If the author name and/or author password are incorrect
  */
 async function handleCreatePostComment(request, response) {
     try {
         const currentUser = await sessionController.getAuthenticatedUser(request);
-        const content = request.body.content, postId = request.body.postId, authorId = request.body.authorId;
+        const content = request.body.content, postId = request.body.postId;
 
         if (currentUser) {
-            const createdPostComment = await model.createPostComment(content, postId, authorId);
+            const createdPostComment = await model.createPostComment(content, postId, currentUser._id);
 
             response.send(createdPostComment);
         }
@@ -39,25 +38,24 @@ async function handleCreatePostComment(request, response) {
 }
 
 
-router.get('/:postId', handleGetSinglePost);
+// router.get('/:postId', handleGetSinglePost);
+// /**
+//  * Searches for and returns a single post using the specified post ID
+//  * @param {Object} request The incoming http request with body containing the post ID
+//  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+//  */
+// async function handleGetSinglePost(request, response) {
+//     try {
+//         const idToFind = request.params.postId;
+//         const post = await model.getSinglePost(idToFind);
 
-/**
- * Searches for and returns a single post using the specified post ID
- * @param {Object} request The incoming http request with body containing the post ID
- * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- */
-async function handleGetSinglePost(request, response) {
-    try {
-        const idToFind = request.params.postId;
-        const post = await model.getSinglePost(idToFind);
-
-        logger.info(post);
-        response.send(post);
-    }
-    catch (error) {
-        sendError(error, response);
-    }
-}
+//         logger.info(post);
+//         response.send(post);
+//     }
+//     catch (error) {
+//         sendError(error, response);
+//     }
+// }
 
 
 router.get('/', handleGetPosts)
