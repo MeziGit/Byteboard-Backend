@@ -8,6 +8,7 @@ const logger = require('../logger')
 const model = require("../models/PostModel")
 const sessionController = require('./sessionController');
 const { checkCredentials, isRequesterAdmin } = require('./userController');
+const { areUsersIdentical, getSingleUser } = require("../models/UserModel");
 const { DatabaseError } = require('../models/DatabaseError')
 const { InvalidInputError } = require('../models/InvalidInputError');
 require("mongodb");
@@ -91,9 +92,10 @@ async function handleUpdatePost(request, response) {
         const postId = request.body.postId;
         const post = await model.getSinglePost(postId);
         const currentUser = await sessionController.getAuthenticatedUser(request);
+        const postAuthor = await getSingleUser(null, post.authorId);
 
         // The person updating the post must be the author
-        if (toString(currentUser._id) == toString(post.authorId)) {
+        if (areUsersIdentical(currentUser, postAuthor)) {
             const updatedPost = await model.updatePost(postId, request.body, true);
 
             response.send(updatedPost);
@@ -106,7 +108,7 @@ async function handleUpdatePost(request, response) {
     }
 }
 
-router.put("/vote", handleVote);
+router.put("/vote/:postId", handleVote);
 /**
  * 
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
@@ -114,7 +116,12 @@ router.put("/vote", handleVote);
  */
 async function handleVote(request, response) {
     try {
-        const postId = request.body.postId;
+        const votingUser = await sessionController.getAuthenticatedUser(request);
+        const postId = request.params.postId;
+        const vote = request.body.vote;
+
+        await model.votePost(postId, votingUser, vote);
+        response.sendStatus(200);
     }
     catch(error) {
         sendError(error, response);
