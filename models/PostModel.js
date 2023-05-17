@@ -5,7 +5,8 @@ const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
 
-const FORBIDDEN_UPDATE_PROPS = ["_id", "dateCreated", "dateEdited"];
+const FORBIDDEN_UPDATE_PROPS = ["_id", "authorId", "dateCreated", "dateEdited"];
+const FORBIDDEN_USER_UPDATE_PROPS = ["score", "userVotes", "comments"];
 
 /**
  * Represents a post created by a user.
@@ -147,10 +148,9 @@ async function updatePost(postId, propertiesToUpdate, isUserEditing = false) {
 
         
             // The property must not be a forbidden-to-update one
-            if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) === -1) {
+            if (FORBIDDEN_UPDATE_PROPS.indexOf(prop) === -1 && (!isUserEditing || FORBIDDEN_USER_UPDATE_PROPS.indexOf(prop) === -1)) {
                 if (propValue !== undefined && propValue !== null) {
-                    if (prop == "score" && !isUserEditing)
-                        updatedProperties[prop] = propValue;
+                    updatedProperties[prop] = propValue;
                 }
             }
         }

@@ -5,7 +5,8 @@ const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
 
-const FORBIDDEN_UPDATE_PROPS = ["_id", "dateCreated", "dateEdited"];
+const FORBIDDEN_UPDATE_PROPS = ["_id", "postId", "authorId", "dateCreated", "dateEdited"];
+const FORBIDDEN_USER_UPDATE_PROPS = ["score", "userVotes"];
 
 /**
  * Represents a post comment created by a user.
@@ -89,7 +90,7 @@ async function createPostComment(content, postId, authorId) {
  * @throws InvalidInputError if the requested post doesn't exist
  * @throws DatabaseError if something went wrong in MongoDB
  */
-async function getSinglePost(postId) {
+async function getSinglePostComment(postId) {
     try {
         const post = await postCollection.findOne({_id : new ObjectId(postId)});
 
@@ -135,7 +136,7 @@ async function getAllPosts() {
  */
 async function updatePost(postId, propertiesToUpdate) {
     try {
-        const post = await getSinglePost(postId);
+        const post = await getSinglePostComment(postId);
         const postProps = Object.getOwnPropertyNames(post);
         const updatedProperties = {dateEdited: Date.now()};
         
@@ -160,7 +161,7 @@ async function updatePost(postId, propertiesToUpdate) {
         if (result.modifiedCount === 0)
             new InvalidInputError("No posts were updated")
 
-        const updatedPost = await getSinglePost(postId);
+        const updatedPost = await getSinglePostComment(postId);
         return updatedPost;
     }
     catch(error) {
@@ -177,7 +178,7 @@ async function updatePost(postId, propertiesToUpdate) {
  */
 async function votePost(postId, votingUser, vote) {
     try {
-        const post = await getSinglePost(postId);
+        const post = await getSinglePostComment(postId);
         const postAuthor = await userModel.getSingleUser(null, post.authorId);
         const userVote = post.userVotes[votingUser._id];
         const voteExists = userVote !== undefined && userVote !== null;
@@ -226,7 +227,7 @@ async function votePost(postId, votingUser, vote) {
  */
 async function deletePost(postId) {
     try {
-        const postToDelete = await getSinglePost(postId);
+        const postToDelete = await getSinglePostComment(postId);
         const result = await postCollection.deleteOne({_id: new ObjectId(postId)});
         
         if (!result)
@@ -241,4 +242,4 @@ async function deletePost(postId) {
     }
 }
 
-module.exports = { createPostComment, getSinglePost, getAllPosts, updatePost, votePost, deletePost };
+module.exports = { createPostComment, getSinglePostComment, getAllPosts, updatePost, votePost, deletePost };
