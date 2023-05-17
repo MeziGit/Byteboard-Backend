@@ -179,6 +179,7 @@ async function votePost(postId, votingUser, vote) {
         const postAuthor = await userModel.getSingleUser(null, post.authorId);
         const userVote = post.userVotes[votingUser._id];
         const voteExists = userVote !== undefined && userVote !== null;
+        const isVoterPostAuthor = userModel.areUsersIdentical(votingUser, postAuthor);
 
 
         if (vote !== 1 && vote !== -1 && !voteExists)
@@ -190,7 +191,7 @@ async function votePost(postId, votingUser, vote) {
             post.userVotes[votingUser._id] = null;
             post.score -= userVote;
 
-            if (!userModel.areUsersIdentical(votingUser, postAuthor))
+            if (!isVoterPostAuthor)
                 postAuthor.reputation -= userVote;
         }
         else {
@@ -198,12 +199,12 @@ async function votePost(postId, votingUser, vote) {
             post.userVotes[votingUser._id] = vote;
             post.score += vote;
 
-            if (!userModel.areUsersIdentical(votingUser, postAuthor)) 
+            if (!isVoterPostAuthor) 
                 postAuthor.reputation += vote;
         }
 
 
-        if (!isVoterPostOwner)
+        if (!isVoterPostAuthor)
             await userModel.updateUser(postAuthor.username, {reputation: postAuthor.reputation});
 
         await updatePost(post._id, {score: post.score, userVotes: post.userVotes});
