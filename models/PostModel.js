@@ -229,7 +229,7 @@ async function votePost(postId, votingUser, vote) {
 async function deletePost(postId) {
     try {
         const postToDelete = await getSinglePost(postId);
-        const result = await postCollection.deleteOne({_id: postId});
+        const result = await postCollection.deleteOne({_id: new ObjectId(postId)});
         
         if (!result)
             throw new DatabaseError("Couldn't delete post");
