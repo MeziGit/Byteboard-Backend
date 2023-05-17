@@ -268,4 +268,4 @@ async function getPostTopic(topicName, topicId) {
     }
 }
 
-module.exports = { createPost, getSinglePost, getAllPosts, getPostTopic, updatePost, votePost };
+module.exports = { createPost, getSinglePost, getAllPosts, getPostTopic, updatePost, votePost, deletePost };
