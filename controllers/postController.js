@@ -123,7 +123,7 @@ async function handleUpdatePost(request, response) {
 
 router.put("/vote", handleVote);
 /**
- * 
+ * Sets a post's score and the post author's reputation to a new value depending on the vote
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
