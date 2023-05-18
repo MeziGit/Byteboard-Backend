@@ -11,7 +11,14 @@ const { InvalidInputError } = require("../models/InvalidInputError");
 
 router.get('/logout', logoutUser);
 
-async function logoutUser(request, response) {
+/**
+ * Logs out the currently logged in user
+ * @param {Object} request The incoming http request
+ * @param {Object} response The outgoing http response
+ * @param {Boolean} isSendingStatus If true, then a status code will be sent. Is true by default
+ * @returns 
+ */
+async function logoutUser(request, response, isSendingStatus = true) {
     try {
         const authenticatedSession = authenticateUser(request);
         if (!authenticatedSession) {
@@ -28,7 +35,8 @@ async function logoutUser(request, response) {
         response.cookie("sessionId", "", { expires: new Date(), httpOnly: true });
         //response.redirect('/');
 
-        response.sendStatus(200);
+        if (isSendingStatus)
+            response.sendStatus(200);
     }
     catch (error) {
         logger.error(error);
@@ -178,6 +186,6 @@ async function getUserFromId(userId) {
 }
 
 
-module.exports = { router, routeRoot, loginUser, authenticateUser, getAuthenticatedUser, refreshSession };
+module.exports = { router, routeRoot, loginUser, logoutUser, authenticateUser, getAuthenticatedUser, refreshSession };
 
 
