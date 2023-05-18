@@ -57,7 +57,7 @@ async function isRequesterAdmin(request) {
 
 router.post("/register", registerUser)
 /**
- * 
+ * Creates a new user account
  * @param {Object} request The incoming http request that should contain a body with the username, email, and password 
  * @param {Object} response The outgoing http response
  */
