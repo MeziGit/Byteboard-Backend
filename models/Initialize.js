@@ -22,6 +22,7 @@ async function initializeConnection(databaseName, urlInput) {
         throw new InvalidInputError(`url must be specified`);
 
     try{
+        logger.info("Initializing connection");
         const url = urlInput;
         client = new MongoClient(url);
         clientDbName = databaseName;
@@ -67,6 +68,8 @@ async function getCollection(collectionName, resetFlag) {
     const db = client.db(clientDbName);
     const collectionCursor = await db.listCollections({name: collectionName});          
     const collectionArray = await collectionCursor.toArray();
+
+    logger.debug("collection array initialized");
 
     /// Drop the collection if instructed to
     if (resetFlag && collectionArray.length > 0) {
