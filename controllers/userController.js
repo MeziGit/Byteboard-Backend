@@ -198,13 +198,16 @@ router.put("/", handleUpdateUser);
  */
 async function handleUpdateUser(request, response) {
     try {
+        const sessionController = require("./sessionController");
+        const user = await sessionController.getAuthenticatedUser(request);
+        const nameToUpdate= user.username;
+
         if(request.body.email != null || request.body.password != null || request.body.username != null)
         {
-            if (!await areCredentialsCorrect(request.body.usernameToUpdate, request.body.currentPassword)) 
+            if (!await areCredentialsCorrect(nameToUpdate, request.body.currentPassword)) 
             throw new InvalidInputError("Your password is incorrect");
         }
 
-        const nameToUpdate = request.body.usernameToUpdate;
 
         if (request.body.reputation != null) {
             // We don't want someone to be able to set their rep because that's cheating
