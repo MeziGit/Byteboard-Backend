@@ -22,6 +22,44 @@ const postCommentController = require('../controllers/postCommentController');
 const jobModelController = require('../controllers/jobController');
 //#endregion
 
+//#region Sample Data
+const sampleUsers = [
+    {username: "test1", "email": "test1@example.com", "password": "test12345678"},
+    {username: "test2", "email": "test2@example.com", "password": "test12345678"},
+    {username: "test3", "email": "test3@example.com", "password": "test12345678"},
+    {username: "test4", "email": "test4@example.com", "password": "test12345678"},
+    {username: "test5", "email": "test5@example.com", "password": "test12345678"},
+    {username: "test6", "email": "test6@example.com", "password": "test12345678"},
+    {username: "test7", "email": "test7@example.com", "password": "test12345678"},
+    {username: "test8", "email": "test8@example.com", "password": "test12345678"},
+    {username: "test9", "email": "test9@example.com", "password": "test12345678"},
+    {username: "test10", "email": "test10@example.com", "password": "test12345678"},
+];
+const samplePosts = [
+    {postTitle: "testpost1", postContent: "content"},
+    {postTitle: "testpost2", postContent: "content"},
+    {postTitle: "testpost3", postContent: "content"},
+    {postTitle: "testpost4", postContent: "content"},
+    {postTitle: "testpost5", postContent: "content"},
+    {postTitle: "testpost6", postContent: "content"},
+    {postTitle: "testpost7", postContent: "content"},
+    {postTitle: "testpost8", postContent: "content"},
+    {postTitle: "testpost9", postContent: "content"},
+    {postTitle: "testpost10", postContent: "content"},
+    {postTitle: "testpost11", postContent: "content"},
+    {postTitle: "testpost12", postContent: "content"},
+];
+
+/**
+ * Gets a list of all post topics
+ * @returns A list of all post topics
+ */
+const getPostTopics = async function() {
+    const topics = await postModel.getAllPostTopics();
+    return topics;
+}
+//#endregion
+
 
 const urlOriginal = process.env.URL_PRE + process.env.MONGODB_PWD + process.env.URL_POST
 let mongod
@@ -70,5 +108,5 @@ afterEach(async () => {
 
 
 test("Register user success case", function() {
-
+    
 });
