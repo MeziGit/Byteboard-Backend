@@ -343,3 +343,1024 @@
 {"level":50,"time":1684388459350,"pid":20508,"hostname":"DESKTOP-AQA29PE","msg":"The requested comment doesn't exist"}
 {"level":50,"time":1684388460729,"pid":20508,"hostname":"DESKTOP-AQA29PE","msg":"The requested comment doesn't exist"}
 {"level":50,"time":1684388460730,"pid":20508,"hostname":"DESKTOP-AQA29PE","msg":"The requested comment doesn't exist"}
+{"level":30,"time":1684388684071,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684388687849,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388687849,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388687849,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388687855,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388687855,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388687855,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388692937,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388692937,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388692937,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388692972,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388692972,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388692972,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388695946,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388695947,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"You are not logged in!"}
+{"level":30,"time":1684388720478,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684388722592,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388722592,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388722592,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388722628,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388722628,"pid":28136,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388722628,"pid":28136,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":30,"time":1684388784683,"pid":24708,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684388799136,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684388799137,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1684388799265,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684388886101,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388886101,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388886101,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684388886132,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684388886132,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684388886132,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389033153,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389033154,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389033154,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389033185,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389033185,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389033185,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":30,"time":1684389086229,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684389090048,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389090049,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"You are not logged in!"}
+{"level":50,"time":1684389141389,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389141389,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389141389,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389141421,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389141421,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389141421,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389144260,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389144261,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"You are not logged in!"}
+{"level":30,"time":1684389158793,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684389160691,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389160692,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389160692,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389160721,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389160721,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389160721,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389165388,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389165388,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389165388,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684389165418,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684389165418,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684389165419,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684420214633,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684420214634,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684420214634,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684420214667,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684420214668,"pid":8104,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684420214668,"pid":8104,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":30,"time":1684420241032,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684420254834,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420254834,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420254879,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420254880,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420258397,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420258397,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420258436,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420258436,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420263589,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684420263589,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684420263590,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684420263621,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684420263622,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684420263622,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684420267529,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420267529,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420267562,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420267562,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420272386,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420272386,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420272419,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684420272419,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684421261987,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684421261987,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684421261987,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684421262031,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684421262031,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684421262031,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684421928382,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684421928382,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684421928382,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684421928411,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684421928411,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684421928411,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422098259,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422098259,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422098259,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684422098292,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422098292,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422098292,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684422127659,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422127659,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422127659,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422127697,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422127697,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422127697,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422431505,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422431505,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422431537,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422431537,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422685643,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422685643,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422685678,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422685679,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422689309,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422689310,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422689341,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422689341,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422761375,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422761376,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422856451,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422856452,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422856483,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422856483,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684422928494,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422928494,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422928494,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"64650e9e9ab7992c34491f5c","username":"testUser2d3dwa","email":"dwdwaa@gmail.com","password":"$2b$10$arYWCNY/PbM2ZS6UFVMkUe9IBDQMoRfnjwtX6ZmCv3zjat9DP6RrK","displayName":"testUser2d3dwa","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422928529,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422928529,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422928529,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"64650e9e9ab7992c34491f5c","username":"testUser2d3dwa","email":"dwdwaa@gmail.com","password":"$2b$10$arYWCNY/PbM2ZS6UFVMkUe9IBDQMoRfnjwtX6ZmCv3zjat9DP6RrK","displayName":"testUser2d3dwa","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422935724,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422935724,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422935724,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684422935752,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684422935753,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684422935753,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423009136,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423009136,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423009136,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423009168,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423009168,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423009168,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423022563,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423022563,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423022563,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423022597,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423022597,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423022597,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423040647,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423040647,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423040647,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423040681,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423040681,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423040681,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423057220,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423057220,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423057220,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423057255,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423057256,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423057256,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423241763,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423241765,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423241765,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get all posts from a user: (Error) Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423253035,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423253037,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423253037,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get all posts from a user: (Error) Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423285107,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423285109,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423285109,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get all posts from a user: (Error) Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423301383,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423301383,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423301383,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423328092,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423328092,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423328092,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423328130,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423328130,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423328130,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423339160,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423339161,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423339161,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423339193,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423339194,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423339194,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423344083,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423344083,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423344083,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423349251,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423349251,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423349251,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423349281,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423349282,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423349282,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423350830,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423350830,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423350830,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423350862,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423350862,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423350862,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423407378,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423407378,"pid":10092,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423407378,"pid":10092,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423477074,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477076,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477083,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477084,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477167,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477168,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477177,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477178,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477182,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477183,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477192,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423477193,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1684423477249,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684423495030,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423495031,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423495031,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get all posts from a user: (Error) Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684423516384,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423516384,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423516384,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423529090,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423529090,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423529090,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423529122,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423529122,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423529122,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423570787,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423570787,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423570787,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423632389,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423632389,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423632389,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423636339,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423636339,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423636340,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423636373,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423636373,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423636373,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423638253,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423638253,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423638254,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423638287,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423638287,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423638287,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423654376,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423654376,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423654377,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423688810,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423688811,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423688811,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684423692857,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423692857,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423692857,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423692888,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684423692888,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684423692888,"pid":16352,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684423698134,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423698134,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423698168,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423698169,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423709364,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423709364,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423768520,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423768520,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423768555,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423768555,"pid":16352,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423880187,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880189,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880194,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880195,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880197,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880197,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880199,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880199,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880201,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880201,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880203,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880207,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880210,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880211,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880214,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880215,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880216,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880217,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880222,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880223,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880225,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880227,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880230,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880230,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880232,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880233,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880236,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880237,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880238,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880239,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880241,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880242,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880243,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880244,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880245,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880246,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880251,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880252,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880254,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880255,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880256,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880257,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880258,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880259,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880260,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880262,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880263,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880263,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880265,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880266,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880268,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880269,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880270,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880270,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880272,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880272,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880273,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880274,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880276,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880276,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880278,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880279,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880280,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880280,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880282,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880283,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880284,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880284,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880285,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880286,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880287,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880288,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880290,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880291,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880292,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880293,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880294,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880294,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880296,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880297,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880298,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880299,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880300,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880300,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880301,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880302,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880304,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880304,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880306,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880306,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880307,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880308,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880317,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880318,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880319,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880319,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880321,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880322,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880323,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880324,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880325,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880326,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880327,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880328,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880329,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880329,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880331,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880332,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880333,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880334,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880338,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880339,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880340,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880340,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880341,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880342,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880343,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880344,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880346,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880346,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880347,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880348,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880352,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880353,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880356,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880358,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880359,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880360,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":30,"time":1684423880367,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684423880373,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880374,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880375,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880376,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880379,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880380,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880382,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880382,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880384,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880385,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880386,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880387,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880390,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880391,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880393,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880394,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880396,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880397,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880398,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880400,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880403,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880403,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880405,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880406,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880409,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880409,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880412,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880413,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880414,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880415,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880417,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880418,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880422,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880423,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880425,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880426,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880428,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880429,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880430,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880431,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880432,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880433,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880435,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880436,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880437,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880438,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880439,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880439,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880440,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880442,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880443,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880444,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880445,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880446,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880446,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880447,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880449,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880450,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880451,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880452,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880453,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880454,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880455,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880456,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880457,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880458,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880459,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880460,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880461,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880461,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880463,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880464,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880465,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880466,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880467,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880467,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880469,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880470,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880471,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880472,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880473,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880474,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880476,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880476,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880479,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880480,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880482,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880483,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880485,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880486,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880487,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880488,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880491,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880492,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880493,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880494,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880495,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880497,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880498,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880499,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880503,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880504,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880505,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880506,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880511,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880512,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880513,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880513,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880517,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880517,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880519,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880520,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880521,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880521,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880522,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880523,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880525,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880526,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880527,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880528,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880529,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880530,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880532,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880533,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880535,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880536,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880537,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880538,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880540,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880541,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880543,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880544,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880545,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880547,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880551,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880552,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880554,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880555,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880557,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880558,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880559,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880561,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880562,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880563,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880564,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880565,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880566,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880567,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880568,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880570,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880571,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880572,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880574,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880574,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880575,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880576,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880578,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880579,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880581,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880582,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880583,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880584,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880585,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880586,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880588,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880589,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880590,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880591,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880593,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880594,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880603,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880604,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880605,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880606,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880607,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880607,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880609,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880610,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880611,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880612,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880613,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880613,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880615,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880616,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880617,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880617,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880618,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880619,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880620,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880621,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880622,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880623,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880624,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880624,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880626,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880626,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880627,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880628,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880629,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880630,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880631,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880631,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880632,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880633,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880634,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880635,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880636,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880637,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880641,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880642,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880645,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880646,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880651,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880652,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880661,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880662,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880665,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880667,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880672,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880675,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880680,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880683,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880688,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880689,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880727,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880729,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880739,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880745,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880752,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880755,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880758,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423880760,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Unexpected error occurred while trying to get a list of all users: (TypeError) Cannot read properties of undefined (reading 'find')"}
+{"level":50,"time":1684423891902,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423891902,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423891940,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423891940,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423908120,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423908120,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423913233,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423913233,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423950838,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423950838,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423993360,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423993360,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423998016,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423998016,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423998046,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423998046,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423999848,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423999849,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423999879,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684423999879,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424001959,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424001959,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424001989,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424001990,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424002787,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424002787,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424002816,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424002816,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424015237,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424015237,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424021605,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424021605,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424021635,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424021635,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424034366,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424034367,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424054776,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424054776,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424057220,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424057221,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424057252,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424057252,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424096383,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424096383,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (undefined)"}
+{"level":50,"time":1684424127754,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424127755,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424127755,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424127784,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424127784,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424127784,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424159261,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424159261,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424159261,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424159291,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424159292,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424159292,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424267564,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424267565,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424267565,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424267603,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424267604,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424267604,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6462419db20ebe32efdf6b5e","username":"DawnUltra","email":"theEmail@gmail.com","password":"$2b$10$1t2QNNoDiaqGWwXV8s4.muPixw5d5aBP8wP6d50srxx8DHShtdudi","displayName":"DawnUltra","description":"Hi, I'm a new ByteBoard user","reputation":-1,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":true,"admin":true}
+{"level":50,"time":1684424272125,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424272126,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424272126,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684424272158,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424272158,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424272158,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684424346772,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424346773,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424346773,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684424346805,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424346805,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684424346805,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646254647fa0673776b29bbe","username":"tester2","email":"tester2@gmail.com","password":"$2b$10$V8eYwCc/6FH.UhY0yt9q9ufswngP4.VNq7p/Zdkvdz4ABqz5ADQkO","displayName":"tester2","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684424412380,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424446741,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424456888,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424774136,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774136,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774168,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774168,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774206,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774207,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774247,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424774248,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777222,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777222,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777253,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777253,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777282,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777282,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777313,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424777313,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424792382,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424792382,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424792416,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424792416,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794190,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794191,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794225,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794225,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794264,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794264,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794294,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424794295,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796299,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796299,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796330,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796330,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796360,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796361,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796389,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424796390,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798280,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798280,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798310,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798311,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798343,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798343,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798376,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424798376,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424808390,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424808390,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424808422,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424808422,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810812,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810812,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810842,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810843,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810870,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810871,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810902,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424810902,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812627,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812627,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812657,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812657,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812693,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812693,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812724,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424812725,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813287,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813287,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813321,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813321,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813349,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813350,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813378,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424813379,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424831351,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424831379,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424831379,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424835785,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424835791,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424835818,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424835819,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424835848,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424835848,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424855349,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424855379,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684424855380,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684424859675,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424859680,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424859705,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424859706,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424859739,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424859739,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424883339,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424883345,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424883374,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424883374,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424883409,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424883409,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424903835,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424903867,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424903867,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424958408,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424958414,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684424958441,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424958441,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424958474,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424958474,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":30,"time":1684424987714,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684424989642,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424989642,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424989674,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424989674,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424991464,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424991464,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424991494,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424991494,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992270,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992270,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992300,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992300,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992999,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424992999,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993028,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993028,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993652,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993652,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993684,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684424993684,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425005961,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425005962,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425005962,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425037495,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425037495,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425037495,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425045713,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425045713,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425046427,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425046428,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425050412,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425050412,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425051130,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425051130,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425065377,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425065378,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425065378,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425070096,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425070096,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425070129,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425070130,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425071663,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425071663,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425071694,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425071694,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425072894,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425072895,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425072925,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425072925,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (null)"}
+{"level":50,"time":1684425127351,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425127354,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425206970,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425206973,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425207027,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425207027,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425207064,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425207064,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":30,"time":1684425225097,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684425227101,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425227102,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425227102,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425227132,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425227132,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425227132,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425228794,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425228794,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425228794,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425228825,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425228825,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425228825,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425246410,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425246410,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425246410,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425250416,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425250417,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425250417,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425274426,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425274427,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425274427,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425274459,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425274459,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425274459,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425276298,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425276298,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425276298,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425276327,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425276328,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425276328,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425345375,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425345378,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425345432,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425345432,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425345465,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425345465,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425348445,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425348449,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425348510,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425348510,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425348544,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425348545,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425379451,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425379456,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425379512,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425379512,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425379542,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425379542,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425384293,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425384297,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425384345,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425384345,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425384374,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425384374,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425397618,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425397622,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425397669,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425397669,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425397700,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425397701,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425410160,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425410164,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425410218,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425410218,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425410251,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425410252,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425422314,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425422318,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425422372,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425422372,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425422403,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425422403,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425436400,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425436402,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425436458,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425436458,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425436489,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425436489,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":30,"time":1684425447737,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684425453158,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425453158,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425453158,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425453187,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425453188,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425453188,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425548447,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425548447,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425548447,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425548480,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425548481,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425548481,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425604085,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425606361,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425606365,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425606446,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425606446,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425606479,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425606479,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425629199,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425629203,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425629253,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425629253,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425629283,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425629283,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684425773908,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425773908,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425773908,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6464f19ee7f2608cb9e28c23","username":"tester4","email":"tester4@gmail.com","password":"$2b$10$bdPJSF2JvpSt7GUu6uQQ4eElgPQ8MtG1sAKNb7nZg.sM82XBCzPhm","displayName":"tester4","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684425774320,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684425774321,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684425774321,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"6464f19ee7f2608cb9e28c23","username":"tester4","email":"tester4@gmail.com","password":"$2b$10$bdPJSF2JvpSt7GUu6uQQ4eElgPQ8MtG1sAKNb7nZg.sM82XBCzPhm","displayName":"tester4","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426061041,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426062011,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":50,"time":1684426062011,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"The requested user doesn't exist (You are not logged in!)"}
+{"level":30,"time":1684426072537,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Successful login for user jeffanderson"}
+{"level":50,"time":1684426076713,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426076714,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426076714,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426076743,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426076744,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426076744,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426095771,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426095771,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426095771,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426095817,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426095818,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426095818,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426133414,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426133415,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426133415,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426148617,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426148617,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426148617,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426148641,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426148641,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426148641,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426151125,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426151126,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426151126,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426151156,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684426151156,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
+{"level":30,"time":1684426151156,"pid":28900,"hostname":"DESKTOP-AQA29PE","_id":"646510cf17ee72e8ade6d6aa","username":"jeffanderson","email":"anglaisedwasilion5@gmail.com","password":"$2b$10$teIrXyQo7/kbwgJj4JO25.9BEjCbMPfC2JUBUMNl2IWqHy8qgvyb2","displayName":"jeffanderson","description":"Hi, I'm a new ByteBoard user","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":50,"time":1684426154681,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"data and hash arguments required"}
+{"level":50,"time":1684426154681,"pid":28900,"hostname":"DESKTOP-AQA29PE","msg":"Your password is incorrect"}
