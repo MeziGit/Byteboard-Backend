@@ -1,6 +1,6 @@
 require('dotenv').config()
 let model = require('../models/netflixModelMongoDb')
-let db = "netflix_db_test"
+let db = process.env.DB_NAME;
 require('mongodb')
 const { MongoMemoryServer } = require('mongodb-memory-server')
 const { InvalidInputError } = require('../models/InvalidInputError')
@@ -17,7 +17,7 @@ const logger = require('../logger')
 const testRequest = supertest(app)
 
 
-// creats a mongomemory server before the tests run
+// creates a mongomemory server before the tests run
 beforeAll(async () => {
 
     mongod = await MongoMemoryServer.create()
