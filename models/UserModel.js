@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 
 const DEFAULT_ACCOUNT_DESCRIPTION = "Hi, I'm a new ByteBoard user";
 const DEFAULT_PFP = "https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png";
-const PUBLIC_USER_PROPS = ["username", "email", "displayName", "description", "reputation", "profilePicture", "verified", "admin"];
+const PUBLIC_USER_PROPS = ["_id", "username", "email", "displayName", "description", "reputation", "profilePicture", "verified", "admin"];
 const FORBIDDEN_UPDATE_PROPS = ["_id", "verified", "admin", "reputation"];
 const saltRounds = 10;
 
