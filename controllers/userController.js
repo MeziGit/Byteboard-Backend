@@ -137,7 +137,7 @@ async function handleGetUsers(request, response) {
 }
 
 
-router.get('/:username', handleGetSingleUser)
+router.get('/usernames/:username', handleGetSingleUserByName)
 
 /**
  * Searches for a user's username in the database and sends this single user if found, but throws errors otherwise. If the requester is not the found user, then it will show only the public details,
@@ -147,10 +147,34 @@ router.get('/:username', handleGetSingleUser)
  * @returns A single user if found, errors otherwise
  * @throws DatabaseError if something went wrong in MongoDB
  */
-async function handleGetSingleUser(request, response) {
+async function handleGetSingleUserByName(request, response) {
     try {
         const nameToFind = request.params.username;
         const user = await model.getSingleUser(nameToFind);
+        const infoToSend = (await isRequesterAdmin(request)) ? model.getAllUserInfo(user) : model.getPublicUserInfo(user);
+
+        logger.info(user);
+        response.send(infoToSend);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+router.get('/ids/:userId', handleGetSingleUserById)
+
+/**
+ * Searches for a user's ID in the database and sends this single user if found, but throws errors otherwise. If the requester is not the found user, then it will show only the public details,
+ * otherwise it will show all details. 
+ * @param {Object} request The incoming http request with the body containing the user ID only
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ * @returns A single user if found, errors otherwise
+ * @throws DatabaseError if something went wrong in MongoDB
+ */
+async function handleGetSingleUserById(request, response) {
+    try {
+        const idToFind = request.params.userId;
+        const user = await model.getSingleUser(null, idToFind);
         const infoToSend = (await isRequesterAdmin(request)) ? model.getAllUserInfo(user) : model.getPublicUserInfo(user);
 
         logger.info(user);
