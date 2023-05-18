@@ -35,29 +35,47 @@ const sampleUsers = [
     {username: "test9", "email": "test9@example.com", "password": "test12345678"},
     {username: "test10", "email": "test10@example.com", "password": "test12345678"},
 ];
-const samplePosts = [
-    {postTitle: "testpost1", postContent: "content"},
-    {postTitle: "testpost2", postContent: "content"},
-    {postTitle: "testpost3", postContent: "content"},
-    {postTitle: "testpost4", postContent: "content"},
-    {postTitle: "testpost5", postContent: "content"},
-    {postTitle: "testpost6", postContent: "content"},
-    {postTitle: "testpost7", postContent: "content"},
-    {postTitle: "testpost8", postContent: "content"},
-    {postTitle: "testpost9", postContent: "content"},
-    {postTitle: "testpost10", postContent: "content"},
-    {postTitle: "testpost11", postContent: "content"},
-    {postTitle: "testpost12", postContent: "content"},
-];
 
+//#region Sample Methods
+/**
+ * Gets random user data from the sampleUsers array
+ * @returns {Object} random user data
+ */
+const getRandomUserData = function() {
+    const randomUser = Math.floor(Math.random() * sampleUsers.length);
+    return randomUser;
+}
+/**
+ * Gets post data
+ * @returns {Object} post data
+ */
+const getPostData = async function() {
+    const randomUser = await getRandomExistingUser();
+    const allTopics = await getPostTopicNames();
+    const post = {postTitle: "testpost", postContent: "content woagoihujgg", authorId: randomUser._id, topicNames: allTopics};
+}
 /**
  * Gets a list of all post topics
  * @returns A list of all post topics
  */
-const getPostTopics = async function() {
+const getPostTopicNames = async function() {
     const topics = await postModel.getAllPostTopics();
+    const topicNames = topics.map(topic => {
+        return topic.topicName;
+    });
     return topics;
 }
+/**
+ * Gets a random existing user
+ * @returns A random user
+ */
+const getRandomExistingUser = async function() {
+    const allUsers = await userModel.getAllUsers();
+    const randomUser = Math.floor(Math.random() * allUsers.length);
+
+    return randomUser;
+}
+//#endregion
 //#endregion
 
 
@@ -107,6 +125,9 @@ afterEach(async () => {
 
 
 
-test("Register user success case", function() {
-    
+test("Register user success case", async function() {
+    const user = getRandomUserData();
+    const createdUser = await userModel.createUser(user.username, user.email, user.password);
+
+    expect(createdUser).toBeDefined();
 });
