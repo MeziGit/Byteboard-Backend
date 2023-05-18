@@ -15,7 +15,7 @@ const streams = [
         stream: pino.destination("./logs/server-log"),
     },
 ]
-const logger =
+
 process.env.CONSOLE_ONLY == "true"
 ? pino(
     
