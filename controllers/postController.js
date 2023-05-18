@@ -139,6 +139,7 @@ async function handleUpdatePost(request, response) {
     }
 }
 
+
 router.put("/vote", handleVote);
 /**
  * Sets a post's score and the post author's reputation to a new value depending on the vote
