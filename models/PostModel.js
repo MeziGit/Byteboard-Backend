@@ -135,17 +135,14 @@ async function getAllPosts() {
 async function getAllPostsFromUser(userId) {
     try {
         const user = await userModel.getSingleUser(null, userId);
-        const allPosts = await getAllPosts();
-        const allPostsFromUser = [];
+        const postCursor = await postCollection.find({authorId: new ObjectId(user._id)});
 
-        for (let i = 0; i < allPosts.length; i++) {
-            const post = allPosts[i];
-            const author = await userModel.getSingleUser(null, post.authorId);
-
-            if (userModel.areUsersIdentical(user, author))
-                allPostsFromUser.push(post);
+        if (!postCursor) {
+            logger.info(`${user.username} has no comments`);
+            return [];
         }
 
+        const allPostsFromUser = await postCursor.toArray();
         return allPostsFromUser;
     }
     catch(error) {

@@ -200,10 +200,15 @@ router.delete('/', handleDeleteUser);
  */
 async function handleDeleteUser(request, response) {
     try {
-        if (!await areCredentialsCorrect(request.body.usernameToDelete, request.body.currentPassword)) 
+        const sessionController = require("./sessionController");
+        const user = await sessionController.getAuthenticatedUser(request);
+        const nameToDelete = user.username;
+
+        if (!await areCredentialsCorrect(nameToDelete, request.body.currentPassword)) 
             throw new InvalidInputError("Your password is incorrect");
 
-        const nameToDelete = request.body.usernameToDelete;
+        // Log out the user that's about to be deleted
+        sessionController.logoutUser(request, response, false);
         const deletedUser = await model.deleteUser(nameToDelete);
 
 

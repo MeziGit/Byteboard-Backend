@@ -1,6 +1,7 @@
 const initializer = require("./Initialize");
 const userModel = require("./UserModel");
 const postModel = require("./PostModel");
+const logger = require("../logger");
 const { InvalidInputError } = require("./InvalidInputError");
 const { DatabaseError } = require("./DatabaseError");
 const { ObjectId } = require("mongodb");
@@ -131,6 +132,29 @@ async function getAllPostComments(postId) {
     }
 }
 
+/**
+ * Gets all posts created by the given user and returns them as an array
+ * @param {User} userId The ID of the user to get the posts from
+ * @returns {Array} An array of posts created by the given user
+ */
+async function getAllPostsCommentsFromUser(userId) {
+    try {
+        const user = await userModel.getSingleUser(null, userId);
+        const commentsCursor = await postCommentCollection.find({authorId: new ObjectId(user._id)});
+
+        if (!commentsCursor) {
+            logger.info(`${user.username} has no comments`);
+            return [];
+        }
+
+        const allPostCommentsFromUser = await commentsCursor.toArray();
+        return allPostCommentsFromUser;
+    }
+    catch(error) {
+        initializer.throwProperError(error, "get all posts from a user");
+    }
+}
+
 
 /**
  * Updates a ByteBoard post comment and returns it if successful
@@ -256,4 +280,4 @@ async function deletePostComment(postCommentId) {
     }
 }
 
-module.exports = { createPostComment, getSinglePostComment, getAllPostComments, updatePostComment, votePost, deletePostComment };
+module.exports = { createPostComment, getSinglePostComment, getAllPostComments, getAllPostsCommentsFromUser, updatePostComment, votePost, deletePostComment };
