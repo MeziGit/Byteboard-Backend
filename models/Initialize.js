@@ -40,6 +40,22 @@ async function initializeConnection(databaseName, urlInput) {
     }
 }
 
+
+/**
+ * Closes the database connection
+ */
+async function close() {
+    try {
+        await client.close();
+        logger.debug(`Database connection closed successfully`);
+    }
+    catch(err) {
+        logger.error(`${err.name}: ${err.message}`);
+    }
+}
+
+
+
 /**const db = client.db(databaseName);
  * Returns a collection from the database
  * @param {String} collectionName The name of the collection
@@ -87,4 +103,4 @@ function throwProperError(error, actionThatThrewError) {
 
 
 
-module.exports = { initializeConnection, getCollection, throwProperError };
+module.exports = { initializeConnection, close, getCollection, throwProperError };
