@@ -149,7 +149,9 @@ router.get('/:username', handleGetSingleUser)
  */
 async function handleGetSingleUser(request, response) {
     try {
+        
         const nameToFind = request.params.username;
+        if(nameToFind.length == 0) throw new InvalidInputError("User not logged in")
         const user = await model.getSingleUser(nameToFind);
         const infoToSend = (await isRequesterAdmin(request)) ? model.getAllUserInfo(user) : model.getPublicUserInfo(user);
 
@@ -172,8 +174,11 @@ router.put("/", handleUpdateUser);
  */
 async function handleUpdateUser(request, response) {
     try {
-        if (!await areCredentialsCorrect(request.body.usernameToUpdate, request.body.currentPassword)) 
+        if(request.body.email != null || request.body.password != null || request.body.username != null)
+        {
+            if (!await areCredentialsCorrect(request.body.usernameToUpdate, request.body.currentPassword)) 
             throw new InvalidInputError("Your password is incorrect");
+        }
 
         const nameToUpdate = request.body.usernameToUpdate;
 
