@@ -214,18 +214,31 @@ async function updateUser(usernameToUpdate, propertiesToUpdate, isUserEditing = 
 }
 
 /**
- * Searches for and deletes a user from the database
+ * Searches for and deletes a user from the database, as well as all of their posts and comments
  * @param {String} usernameToDelete 
  * @returns {User} The deleted user
  * @throws InvalidInputError if the user does not exist or did not get deleted
  */
 async function deleteUser(usernameToDelete) {
     try {
+        const postModel = require("./PostModel");
+        const commentModel = require("./PostCommentModel");
+
         const user = await getSingleUser(usernameToDelete);
+        const userPosts = await postModel.getAllPostsFromUser(user._id);
+        const userPostComments = await commentModel.getAllPostsCommentsFromUser(user._id);
+
         const result = await userCollection.deleteOne({username: usernameToDelete});
         
         if (result.deletedCount == 0)
              throw new InvalidInputError(`Could not delete ${usernameToDelete}`);
+
+        // Delete all of the user's posts and comments
+        for (let i = 0; i < userPostComments.length; i++)
+            await commentModel.deletePostComment(userPostComments[i]._id);
+        
+        for (let i = 0; i < userPosts.length; i++)
+            await postModel.deletePost(userPosts[i]._id);
 
         return user;
     }
