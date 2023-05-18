@@ -5,14 +5,14 @@ const logger = require('./logger')
 const express = require('express')
 const app = express();
 const corsOptions = {
-    origin: ["https://byteboard-frontend.onrender.com","http://localhost:3000/"],
+    origin: "http://localhost:3000",
     credentials: true,
 };
 
 app.use(cors(corsOptions));
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, Accept, Content-Type, Authorization");
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000","http://localhost:1339");
     res.setHeader("Access-Control-Allow-Credentials", true);
     res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH");
     next();
