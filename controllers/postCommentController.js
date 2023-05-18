@@ -30,7 +30,7 @@ async function handleCreatePostComment(request, response) {
             response.send(createdPostComment);
         }
         else
-            response.sendStatus(401);
+            throw new InvalidInputError("User not logged in")
     }
     catch (error) {
         sendError(error, response);
