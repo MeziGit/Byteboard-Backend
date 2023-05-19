@@ -160,7 +160,7 @@ function sendError(error, response) {
 
     if (error instanceof InvalidInputError) {
         response.status(400);
-        response.send({ errorMessage: "Invalid Input Error: " + error.message });
+        response.send({ errorMessage:  error.message });
     }
     else {
         response.status(500);
