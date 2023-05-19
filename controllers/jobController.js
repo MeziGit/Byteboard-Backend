@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const routeRoot = "/posts";
+const routeRoot = "/jobs";
 const logger = require('../logger')
-const model = require("../models/PostModel")
+const model = require("../models/JobModel")
 const sessionController = require('./sessionController');
 const { isRequesterAdmin } = require('./userController');
 const { areUsersIdentical, getSingleUser } = require("../models/UserModel");
@@ -12,21 +12,21 @@ require("mongodb");
 
 
 
-router.post('/', handleCreatePost);
+router.post('/', handleCreateJob);
 /**
- * Creates a new post using parameters from a POST request.
- * @param {Object} request The incoming http request with body containing the post title, description, topic name, and author name
+ * Creates a new job using parameters from a POST request.
+ * @param {Object} request The incoming http request with body containing the post title, description, and job pay
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleCreatePost(request, response) {
+async function handleCreateJob(request, response) {
     try {
         const currentUser = await sessionController.getAuthenticatedUser(request);
-        const title = request.body.title, content = request.body.content, topicNames = request.body.topicNames;
+        const title = request.body.title, description = request.body.description, jobPay = request.body.jobPay;
 
         if (currentUser) {
-            const createdPost = await model.createPost(title, content, topicNames, currentUser._id);
+            const createdJob = await model.createJob(title, description, jobPay, currentUser._id);
 
-            response.send(createdPost);
+            response.send(createdJob);
         }
         else
             response.sendStatus(401);
@@ -37,56 +37,38 @@ async function handleCreatePost(request, response) {
 }
 
 
-router.get("/topics", handleGetPostTopics);
-/**
- * Gets a list of all post topics available
- * @param {Object} request The incoming http request. Should have nothing
- * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- */
-async function handleGetPostTopics(request, response) {
-    try {
-        let topicList = await model.getAllPostTopics();
-        response.send(topicList);
-    }
-
-    catch (error) {
-        sendError(error, response);
-    }
-}
-
-
-router.get('/ids/:postId', handleGetSinglePost);
+router.get('/ids/:jobId', handleGetSingleJob);
 
 /**
  * Searches for and returns a single post using the specified post ID
  * @param {Object} request The incoming http request with body containing the post ID
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleGetSinglePost(request, response) {
+async function handleGetSingleJob(request, response) {
     try {
-        const idToFind = request.params.postId;
-        const post = await model.getSinglePost(idToFind);
+        const idToFind = request.params.jobId;
+        const job = await model.getSingleJob(idToFind);
 
-        logger.info(post);
-        response.send(post);
+        logger.info(job);
+        response.send(job);
     }
     catch (error) {
         sendError(error, response);
     }
 }
 
-router.get("/users/:userId", handleGetPostsFromUser);
+router.get("/users/:userId", handleGetJobFromUser);
 /**
- * Gets all posts created by the given user and sends them as an array
+ * Gets all jobs created by the given user and sends them as an array
  * @param {Object} request The incoming http request with body containing the user's ID
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleGetPostsFromUser(request, response) {
+async function handleGetJobFromUser(request, response) {
     try{
         const userId = request.params.userId;
-        const allPostsFromUser = await model.getAllPostsFromUser(userId);
+        const allJobsFromUser = await model.getAllJobsFromUser(userId);
 
-        response.send(allPostsFromUser);
+        response.send(allJobsFromUser);
     }
     catch (error) {
         sendError(error, response);
@@ -94,16 +76,16 @@ async function handleGetPostsFromUser(request, response) {
 }
 
 
-router.get('/', handleGetPosts)
+router.get('/', handleGetJobs)
 /**
- * Gets a list of ALL posts in the ByteBoard database
+ * Gets a list of ALL jobs in the ByteBoard database
  * @param {Object} request The incoming http request. Should have nothing
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleGetPosts(request, response) {
+async function handleGetJobs(request, response) {
     try {
-        let postList = await model.getAllPosts();
-        response.send(postList);
+        let jobList = await model.getAllJobs();
+        response.send(jobList);
     }
 
     catch (error) {
@@ -112,22 +94,22 @@ async function handleGetPosts(request, response) {
 }
 
 
-router.put("/", handleUpdatePost);
+router.put("/", handleUpdateJob);
 /**
- * Updates a user's information if the user exists and sends the updated user object
+ * Updates a job's information if the user exists and sends the updated user object
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
-async function handleUpdatePost(request, response) {
+async function handleUpdateJob(request, response) {
     try {
-        const postId = request.body.postId;
-        const post = await model.getSinglePost(postId);
+        const jobId = request.body.jobId;
+        const job = await model.getSingleJob(jobId);
         const currentUser = await sessionController.getAuthenticatedUser(request);
-        const postAuthor = await getSingleUser(null, post.authorId);
+        const jobAuthor = await getSingleUser(null, job.authorId);
 
         // The person updating the post must be the author
-        if (areUsersIdentical(currentUser, postAuthor)) {
-            const updatedPost = await model.updatePost(postId, request.body, true);
+        if (areUsersIdentical(currentUser, jobAuthor)) {
+            const updatedPost = await model.updatePost(jobId, request.body, true);
 
             response.send(updatedPost);
         }
@@ -139,26 +121,6 @@ async function handleUpdatePost(request, response) {
     }
 }
 
-
-router.put("/vote", handleVote);
-/**
- * Sets a post's score and the post author's reputation to a new value depending on the vote
- * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
- * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
- */
-async function handleVote(request, response) {
-    try {
-        const votingUser = await sessionController.getAuthenticatedUser(request);
-        const postId = request.body.postId;
-        const vote = request.body.vote;
-
-        await model.votePost(postId, votingUser, vote);
-        response.sendStatus(200);
-    }
-    catch(error) {
-        sendError(error, response);
-    }
-}
 
 router.delete('/', handleDeletePost);
 

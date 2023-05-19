@@ -114,7 +114,7 @@ async function handleGetPosts(request, response) {
 
 router.put("/", handleUpdatePost);
 /**
- * Updates a user's information if the user exists and sends the updated user object
+ * Updates a post's information if the user exists and sends the updated user object
  * @param {Object} request The incoming http request with the body containing the ID of the post to update as well as the properties to update
  * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
  */
