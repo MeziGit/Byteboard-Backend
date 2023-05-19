@@ -23,6 +23,10 @@ async function handleCreatePost(request, response) {
         const currentUser = await sessionController.getAuthenticatedUser(request);
         const title = request.body.title, content = request.body.content, topicNames = request.body.topicNames;
 
+        if(title == null || content == null)
+        {
+            throw new InvalidInputError("Title or Content is empty")
+        }
         if (currentUser) {
             const createdPost = await model.createPost(title, content, topicNames, currentUser._id);
 
