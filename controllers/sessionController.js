@@ -135,8 +135,7 @@ async function handleGetUsername(request, response) {
         response.send({username: user.username});
     }
     catch (err) {
-        response.status(500)
-        response.send(err.message)
+        sendError(err, response);
     }
 }
 
@@ -152,8 +151,7 @@ async function handleGetSelf(request, response) {
         response.send(user);
     }
     catch (err) {
-        response.status(500)
-        response.send(err.message)
+        sendError(err, response);
     }
 }
 
