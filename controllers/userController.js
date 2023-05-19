@@ -251,6 +251,29 @@ async function handleDeleteUser(request, response) {
     }
 }
 
+router.delete('/delete/:user', handleDeleteUserAdmin);
+
+async function handleDeleteUserAdmin(request, response) {
+    try {
+        const sessionController = require("./sessionController");
+        const user = await sessionController.getAuthenticatedUser(request);
+        const nameToDelete = request.params.user
+
+        if (user.username != "admin") 
+            throw new InvalidInputError("You cant delete that");
+
+
+        const deletedUser = await model.deleteUser(nameToDelete);
+
+
+        response.send(deletedUser);
+    }
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
+
 
 
 // Logs an error, and sends a response of 400 if the error is an InvalidInputError, 500 otherwise
