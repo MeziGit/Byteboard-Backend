@@ -56,7 +56,7 @@ async function loginUser(request, response) {
         // Checks if the user is already logged in, and will send a 401 status if so
         const authenticatedSession = authenticateUser(request);
         if (authenticatedSession) {
-            response.sendStatus(401); // Unauthorized access
+            throw new InvalidInputError("You are already logged in, log out to log in on another account"); // Unauthorized access
             return;
         }
 
