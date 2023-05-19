@@ -10,6 +10,12 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+/**
+ * CORS middleware method allows access control for all routes
+ * @param {Request} req
+ * @param {Response} res
+ * @param {NextFunction} next
+ */
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, Accept, Content-Type, Authorization");
     res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000","http://localhost:1339");

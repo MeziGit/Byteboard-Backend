@@ -4004,3 +4004,10 @@
 {"level":50,"time":1684452096162,"pid":10464,"hostname":"DESKTOP-AQA29PE","msg":"Not allowed to get user, as there is no authenticated session"}
 {"level":50,"time":1684452096162,"pid":10464,"hostname":"DESKTOP-AQA29PE","msg":"Error while checking if a user is an admin: InvalidInputError: You are not logged in!"}
 {"level":30,"time":1684452096162,"pid":10464,"hostname":"DESKTOP-AQA29PE","_id":"6466adbe7e1ad589be48fb29","username":"jeffanderson","email":"a_silion@yahoo.com","password":"$2b$10$OJdNX7ZodRHZHTz6NBQ60OlvaGXZ/Mmf6WMNGR839g2EhehVlcli.","displayName":"jeffanderson","description":"Im the best ever","reputation":0,"profilePicture":"https://cdn.discordapp.com/attachments/667872583538180137/1105656082136842330/Default_Pfp.png","verified":false,"admin":false}
+{"level":30,"time":1684463072568,"pid":5672,"hostname":"DESKTOP-KA5KC14","msg":"Initializing connection"}
+{"level":30,"time":1684463073197,"pid":5672,"hostname":"DESKTOP-KA5KC14","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684463220695,"pid":5672,"hostname":"DESKTOP-KA5KC14","msg":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684463220696,"pid":5672,"hostname":"DESKTOP-KA5KC14","msg":"Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":50,"time":1684463220697,"pid":5672,"hostname":"DESKTOP-KA5KC14","msg":"Unexpected error occurred while trying to get all posts from a user: (Error) Unexpected error occurred while trying to get a single user: (BSONError) Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":30,"time":1684463404315,"pid":20792,"hostname":"DESKTOP-KA5KC14","msg":"Initializing connection"}
+{"level":30,"time":1684463404731,"pid":20792,"hostname":"DESKTOP-KA5KC14","msg":"Connected to the \"byteboard_db\" database"}
