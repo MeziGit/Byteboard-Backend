@@ -8,6 +8,7 @@ const collation = {locale: "en", strength: 1};
 let client;
 let clientDbName;
 let collection;
+let isResettingFlag;
 
 /**
  * Initializes and returns a connection to the database
@@ -17,7 +18,7 @@ let collection;
  * @throws {DatabaseError} if something wrong happened in the database or the system
  * @throws {InvalidInputError} if the urlInput is undefined or null
  */
-async function initializeConnection(databaseName, urlInput) {
+async function initializeConnection(databaseName, urlInput, resetFlag = false) {
     if (urlInput === undefined || urlInput === null)
         throw new InvalidInputError(`url must be specified`);
 
@@ -26,6 +27,8 @@ async function initializeConnection(databaseName, urlInput) {
         const url = urlInput;
         client = new MongoClient(url);
         clientDbName = databaseName;
+
+        isResettingFlag = resetFlag;
 
         await client.connect();
         logger.info(`Connected to the "${databaseName}" database`);
@@ -63,7 +66,7 @@ async function close() {
  * @param {Boolean} resetFlag Represents whether to drop the collection and recreate it. Default is false
  * @returns A collection from the database
  */
-async function getCollection(collectionName, resetFlag) {
+async function getCollection(collectionName) {
     /// Get the collection
     const db = client.db(clientDbName);
     const collectionCursor = await db.listCollections({name: collectionName});          
@@ -72,7 +75,7 @@ async function getCollection(collectionName, resetFlag) {
     logger.debug("collection array initialized");
 
     /// Drop the collection if instructed to
-    if (resetFlag && collectionArray.length > 0) {
+    if (isResettingFlag && collectionArray.length > 0) {
         const tmpCollection = await db.collection(collectionName);
         tmpCollection.drop();
         logger.debug("Dropped the temporary collection");

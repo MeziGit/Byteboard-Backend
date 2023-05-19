@@ -95,7 +95,7 @@ beforeAll(async () => {
     mongod = await MongoMemoryServer.create();
 
     const url = await mongod.getUri();
-    await initializer.initializeConnection(db, url);
+    await initializer.initializeConnection(db, url, true);
 
         sessionModel = require('../models/Session');
         userModel = require("../models/UserModel");
