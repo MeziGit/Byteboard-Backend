@@ -111,6 +111,23 @@ async function handleGetPosts(request, response) {
     }
 }
 
+router.get('/jobs', handleGetJobPosts)
+/**
+ * Gets a list of ALL job posts in the ByteBoard database
+ * @param {Object} request The incoming http request. Should have nothing
+ * @param {Object} response The outgoing http response (200 on success, 400 on user failure, 500 on system failure)
+ */
+async function handleGetJobPosts(request, response) {
+    try {
+        let postList = await model.getAllJobPosts();
+        response.send(postList);
+    }
+
+    catch (error) {
+        sendError(error, response);
+    }
+}
+
 
 router.put("/", handleUpdatePost);
 /**

@@ -127,6 +127,8 @@ async function getAllPosts() {
     }
 }
 
+
+
 /**
  * Gets all posts created by the given user and returns them as an array
  * @param {User} userId The ID of the user to get the posts from
@@ -160,6 +162,37 @@ async function getAllPostTopics() {
         const list = await cursor.toArray();
 
         return list;
+    }
+    catch(error) {
+        initializer.throwProperError(error, "get all post topics");
+    }
+}
+
+/**
+ * Returns all job posts
+ * @returns All job
+ */
+async function getAllJobPosts() {
+    try {
+        const posts = await getAllPosts();
+        const jobPosts = [];
+
+        for (let j = 0; j < posts.length; j++) {
+            const post = posts[j];
+            const topics = post.topics;
+            
+            for (let i = 0; i < topics.length; i++) {
+                const topic = topics[i];
+                const id = topic.topicName;
+
+                if (id.toString() == "Job")
+                {
+                    jobPosts.push(post)
+                }
+            }
+        }
+            
+        return jobPosts;
     }
     catch(error) {
         initializer.throwProperError(error, "get all post topics");
@@ -309,4 +342,4 @@ async function getPostTopic(topicName, topicId) {
     }
 }
 
-module.exports = { createPost, getSinglePost, getAllPosts, getAllPostsFromUser, getAllPostTopics, getPostTopic, updatePost, votePost, deletePost };
+module.exports = { createPost, getSinglePost, getAllPosts, getAllJobPosts, getAllPostsFromUser, getAllPostTopics, getPostTopic, updatePost, votePost, deletePost };
