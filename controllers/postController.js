@@ -126,7 +126,7 @@ async function handleUpdatePost(request, response) {
         const postAuthor = await getSingleUser(null, post.authorId);
 
         // The person updating the post must be the author
-        if (areUsersIdentical(currentUser, postAuthor)) {
+        if (areUsersIdentical(currentUser, postAuthor) || isRequesterAdmin(currentUser)) {
             const updatedPost = await model.updatePost(postId, request.body, true);
 
             response.send(updatedPost);

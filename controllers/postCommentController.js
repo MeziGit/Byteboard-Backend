@@ -91,7 +91,7 @@ async function handleUpdatePostComment(request, response) {
         const commentAuthor = await getSingleUser(null, comment.authorId);
 
         // The person updating the post comment must be the author
-        if (areUsersIdentical(currentUser, commentAuthor)) {
+        if (areUsersIdentical(currentUser, commentAuthor) || isRequesterAdmin(currentUser)) {
             const updatedComment = await model.updatePostComment(postCommentId, request.body);
 
             response.send(updatedComment);
