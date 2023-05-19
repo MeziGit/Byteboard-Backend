@@ -140,6 +140,23 @@ async function handleGetUsername(request, response) {
     }
 }
 
+router.get("/getSelf", handleGetSelf)
+/**
+ * Gets a username if the 
+ * @param {Object} request The incoming http request
+ * @param {Object} response The outgoing http response
+ */
+async function handleGetSelf(request, response) {
+    try {
+        const user = await getAuthenticatedUser(request);
+        response.send(user);
+    }
+    catch (err) {
+        response.status(500)
+        response.send(err.message)
+    }
+}
+
 /**
  * 
  * @param {Object} request The incoming http request
