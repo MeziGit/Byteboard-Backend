@@ -33,10 +33,6 @@ async function initializeConnection(databaseName, urlInput, resetFlag = false) {
         await client.connect();
         logger.info(`Connected to the "${databaseName}" database`);
 
-//         const db = await client.db(clientDbName)
-
-// collection = await db.collection
-
         return client;
     }
     catch(err){
