@@ -5056,3 +5056,9 @@
 {"level":30,"time":1684529316325,"pid":6124,"hostname":"PE325-26","_id":"6467d9ed543b43f21da40b9d","postTitle":"IT","postContent":"stuff","topics":[{"_id":"6467cee93a67246137e96e5f","colour":"rgb(130, 115, 160)","topicName":"Job"}],"authorId":"6467c5519a0d63d25c58881a","score":0,"dateCreated":1684527597772,"comments":[],"userVotes":{},"dateEdited":null}
 {"level":50,"time":1684529316332,"pid":6124,"hostname":"PE325-26","msg":"Not allowed to get user, as there is no authenticated session"}
 {"level":50,"time":1684529316333,"pid":6124,"hostname":"PE325-26","msg":"You are not logged in!"}
+{"level":30,"time":1684530492927,"pid":55409,"hostname":"PE322-03","msg":"Initializing connection"}
+{"level":30,"time":1684530493625,"pid":55409,"hostname":"PE322-03","msg":"Connected to the \"byteboard_db\" database"}
+{"level":50,"time":1684530497940,"pid":55409,"hostname":"PE322-03","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684530497941,"pid":55409,"hostname":"PE322-03","msg":"You are not logged in!"}
+{"level":50,"time":1684530497946,"pid":55409,"hostname":"PE322-03","msg":"Not allowed to get user, as there is no authenticated session"}
+{"level":50,"time":1684530497947,"pid":55409,"hostname":"PE322-03","msg":"You are not logged in!"}
