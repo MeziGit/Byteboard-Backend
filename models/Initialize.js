@@ -75,9 +75,11 @@ async function getCollection(collectionName) {
     logger.debug("collection array initialized");
 
     /// Drop the collection if instructed to
-    if (isResettingFlag && collectionArray.length > 0) {
+    if (isResettingFlag) {
+        console.log("resetting");
         const tmpCollection = await db.collection(collectionName);
         tmpCollection.drop();
+        console.log("dropped collection");
         logger.debug("Dropped the temporary collection");
     }
 

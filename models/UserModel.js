@@ -95,13 +95,13 @@ function getAllUserInfo(user) {
  * @returns {User} The created user object
  * @throws InvalidInputError if the user credentials are invalid
  */
-async function createUser(username, email, password) {
+async function createUser(username, email, password, collection = userCollection) {
     try {
         if (validator.areAllCredentialsValid(username, email, password) && !(await doesUserExist(username, email))) {
             const hashedPassword = await bcrypt.hash(password, saltRounds);
 
             const newUser = new User(username, email, hashedPassword);
-            const result = await userCollection.insertOne(newUser);
+            const result = await collection.insertOne(newUser);
 
             if (!result)
                 throw new Error("Could not create new user, unexpected error");

@@ -7,7 +7,7 @@ const pino = require('pino')
 
 const streams = [
     {
-        level:"info",
+        level:"debug",
         stream: process.stdout,
     },
     {

@@ -69,7 +69,7 @@ async function loginUser(request, response) {
                 const user = await userModel.getSingleUser(username);
                 logger.info("Successful login for user " + username)
 
-                const sessionId = createSession(user._id, 2);
+                const sessionId = createSession(user._id, 30);
 
                 response.cookie("sessionId", sessionId, { expires: getSession(sessionId).expiresAt, httpOnly: true })
                 response.send("successful login for user " + username);
@@ -132,7 +132,7 @@ router.get("/getUsername", handleGetUsername)
 async function handleGetUsername(request, response) {
     try {
         const user = await getAuthenticatedUser(request);
-        response.send(user.username);
+        response.send({username: user.username});
     }
     catch (err) {
         response.status(500)

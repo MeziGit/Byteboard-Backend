@@ -19,7 +19,15 @@ let sessionController;
 let userController;
 let postController;
 let postCommentController;
-let jobModelController;
+let jobController;
+//#endregion
+
+//#region Collections
+let userCollection;
+let postCollection;
+let postCommentCollection;
+let postTopicCollection;
+let jobCollection;
 //#endregion
 
 //#region Sample Data
@@ -87,7 +95,6 @@ let app;
 const supertest = require('supertest')
 const logger = require('../logger')
 let testRequest;
-let initializedConnection = false;
 
 
 // creates a mongomemory server before the tests run
@@ -97,17 +104,17 @@ beforeAll(async () => {
     const url = await mongod.getUri();
     await initializer.initializeConnection(db, url, true);
 
-        sessionModel = require('../models/Session');
-        userModel = require("../models/UserModel");
-        postModel = require("../models/PostModel");
-        postCommentModel = require("../models/PostCommentModel");
-        jobModel = require("../models/JobModel");
+    sessionModel = require('../models/Session');
+    userModel = require("../models/UserModel");
+    postModel = require("../models/PostModel");
+    postCommentModel = require("../models/PostCommentModel");
+    jobModel = require("../models/JobModel");
 
-        sessionController = require('../controllers/sessionController');
-        userController = require('../controllers/userController');
-        postController = require('../controllers/postController');
-        postCommentController = require('../controllers/postCommentController');
-        jobModelController = require('../controllers/jobController');
+    sessionController = require('../controllers/sessionController');
+    userController = require('../controllers/userController');
+    postController = require('../controllers/postController');
+    postCommentController = require('../controllers/postCommentController');
+    jobController = require('../controllers/jobController');
 
     app = require('../app');
     testRequest = supertest(app);
@@ -129,11 +136,6 @@ afterAll(async () => {
  */
 beforeEach(async () => {
     try {
-        if (!initializedConnection) {
-            
-            initializedConnection = true;
-        }     
-
         
     }
     catch (error) {
@@ -151,9 +153,54 @@ afterEach(async () => {
 
 jest.setTimeout(10000000);
 
-test("Register user success case", async function() {
+//#region User Tests
+//#region Model
+test("Create User success case", async function() {
     const user = getRandomUserData();
     const createdUser = await userModel.createUser(user.username, user.email, user.password);
 
     expect(createdUser).toBeDefined();
 });
+
+test("Create User with invalid credentials", async function() {
+    const realUser = getRandomUserData();
+    const badUser = {email: "testAexample.@com", password: "aaaaa"};
+
+    // Invalid email
+    await expect(async function() {
+        const createdUser = await userModel.createUser(realUser.username, badUser.email, realUser.password);
+    }).toThrow(InvalidInputError);
+
+    // Invalid password
+    await expect(async function() {
+        const createdUser = await userModel.createUser(realUser.username, realUser.email, badUser.password);
+    }).toThrow(InvalidInputError);
+});
+
+test("Create User but another User with the same credentials already exists", async function() {
+    const user = getRandomUserData();
+
+    await expect(async function() {
+        const createdUser = await userModel.createUser(user.username, user.email, user.password);
+        const duplicateUser = await userModel.createUser(user.username, user.email, user.password);
+    }).toThrow(InvalidInputError);
+});
+
+test("Get All Users success case", async function() {
+    const allUsers = await userModel.getAllUsers();
+
+    expect(allUsers).toBeDefined();
+    expect(allUsers.length).toBeGreaterThan(0);
+});
+
+test("Get Single User success case (both username and id)", async function() {
+    const user = getRandomUserData();
+    const createdUser = await userModel.createUser(user.username, user.email, user.password);
+    const singleUser = await userModel.getSingleUser();
+
+    expect(createdUser).toBeDefined();
+});
+//#endregion
+//#endregion
+
+//#region Post Tests

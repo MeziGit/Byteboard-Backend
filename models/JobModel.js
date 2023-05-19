@@ -170,8 +170,8 @@ async function updateJob(jobId, propertiesToUpdate, isUserEditing = false) {
         if (result.modifiedCount === 0)
             new InvalidInputError("No jobs were updated")
 
-        const updatedjob = await getSingleJob(jobId);
-        return updateJob;
+        const updatedJob = await getSingleJob(jobId);
+        return updatedJob;
     }
     catch(error) {
         initializer.throwProperError(error, "update a job's details");
